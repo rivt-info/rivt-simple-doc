@@ -115,6 +115,120 @@
             },
         ]
     },
+    "todohighlight.include": [
+        "**/*.py"
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "todohighlight.defaultStyle": {
+        "color": "grey",
+        "backgroundColor": "editor.background",
+        "border": "none",
+        "isWholeLine": false,
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "rv.R",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.I",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.V",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.T",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.D",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "rv.S",
+            "color": "#f3ffbd",
+            "isWholeLine": true,
+        },
+        {
+            "text": "\"\"\")",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
+            "text": "| IMAGE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| IMAGE2 |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| TABLE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| TEXT |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| VALUE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| DOC |",
+            "color": "#f4a462",
+        },
+        {
+            "text": "| ATTACH |",
+            "color": "#f4a462",
+        },
+        {
+            "text": ":=",
+            "color": "#e76e50",
+        },
+        {
+            "text": "_[T]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[F]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[E]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[C]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[S]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[V]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[V]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[Q]]",
+            "color": "#4989a2",
+        },
+    ],
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.scrollback": 5000,
@@ -158,116 +272,6 @@
     "jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
     "insertDateString.format": "MM-DD-YYYY hh:mm:ss",
     "insertDateString.formatDate": "MM-DD-YYYY",
-    "todohighlight.include": [
-        "**/*.py"
-    ],
-    "todohighlight.isEnable": true,
-    "todohighlight.isCaseSensitive": true,
-    "todohighlight.maxFilesForSearch": 5120,
-    "todohighlight.toggleURI": false,
-    "todohighlight.defaultStyle": {
-        "color": "grey",
-        "backgroundColor": "editor.background",
-        "border": "none",
-        "isWholeLine": false,
-    },
-    "todohighlight.keywords": [
-        {
-            "text": "rv.R",
-            "color": "#e8c468",
-            "isWholeLine": true,
-        },
-        {
-            "text": "rv.I",
-            "color": "#e8c468",
-            "isWholeLine": true,
-        },
-        {
-            "text": "rv.V",
-            "color": "#e8c468",
-            "isWholeLine": true,
-        },
-        {
-            "text": "rv.T",
-            "color": "#e8c468",
-            "isWholeLine": true,
-        },
-        {
-            "text": "rv.W",
-            "color": "#e8c468",
-            "isWholeLine": true,
-        },
-        {
-            "text": "rv.S",
-            "color": "#f3ffbd",
-            "isWholeLine": true,
-        },
-        {
-            "text": "\"\"\")",
-            "color": "gray",
-            "isWholeLine": true,
-        },
-        {
-            "text": "|IMG|",
-            "color": "#0f8f69",
-        },
-        {
-            "text": "|IMG2|",
-            "color": "#0f8f69",
-        },
-        {
-            "text": "|TABLE|",
-            "color": "#0f8f69",
-        },
-        {
-            "text": "|TEXT|",
-            "color": "#0f8f69",
-        },
-        {
-            "text": "|VALUE|",
-            "color": "#0f8f69",
-        },
-        {
-            "text": "|DOC|",
-            "color": "#f4a462",
-        },
-        {
-            "text": "|ATTACH|",
-            "color": "#f4a462",
-        },
-        {
-            "text": ":=",
-            "color": "#e76e50",
-        },
-        {
-            "text": "_[T]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[F]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[E]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[C]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[S]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[[V]]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[[Q]]",
-            "color": "#4989a2",
-        },
-    ],
     "seito-openfile.searchSubFoldersOfWorkspaceFolders": [],
     "seito-openfile.openNewTab": true,
     "seito-openfile.searchPaths": [],
@@ -347,11 +351,6 @@
         "rivtlib",
         "stds",
         "yapf"
-    ],
-    "githubPullRequests.remotes": [
-        "origin",
-        "upstream",
-        "https://github.com/rivt-info/rivt-simple-doc"
     ],
 }
 // ========================================================================== //

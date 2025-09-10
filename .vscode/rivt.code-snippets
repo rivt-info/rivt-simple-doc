@@ -1,4 +1,12 @@
 {
+    "image command": {
+        "prefix": "img",
+        "description": "insert image",
+        "scope": "python",
+        "body": [
+            "| IMAGE | ${1:rvdefault} | ${2:filename} | ${3:caption}, ${0:scale}"
+        ]
+    },
     "cell (cel}": {
         "prefix": "cel",
         "description": "insert cell label",
