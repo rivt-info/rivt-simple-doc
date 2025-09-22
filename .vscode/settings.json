@@ -29,8 +29,8 @@
     "explorer.confirmDragAndDrop": false,
     "fsdeploy.nodes": [
         {
-            "source": "E:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
-            "target": "C:/git/git-rivt-simple-doc",
+            "source": "E:/OneDrive/StL-Proj2/2025/rivt-simple-example",
+            "target": "C:/git/git-rivt-simple-example",
             "include": "**/*.*",
             "exclude": "",
             "deleteTargetOnDeploy": true,
