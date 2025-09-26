@@ -31,7 +31,7 @@ rv.I("""Load Combinations and Geometry
     16-3            1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
     =============   ==============================================
 
-    | IMG | rvlocal | beam.png | 0.5, Beam Geometry _[F]
+    | IMG | rvlocal | beam.png | 0.3, Beam Geometry _[F]
     """)
 
 # %%
