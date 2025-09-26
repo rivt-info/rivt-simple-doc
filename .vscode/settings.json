@@ -1,7 +1,7 @@
 // ========================================================================== //
 // top
 {
-    "window.title": "${separator}${activeEditorLong}${separator}${remoteName}$[dirty}",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
     "settings.cycle": [
         {
             "id": "explorerSort2", // must be unique
@@ -29,8 +29,8 @@
     "explorer.confirmDragAndDrop": false,
     "fsdeploy.nodes": [
         {
-            "source": "E:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
-            "target": "C:/git/git-rivt-simple-doc",
+            "source": "E:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
+            "target": "C:/git/git-rivt-simple-single-doc",
             "include": "**/*.*",
             "exclude": "",
             "deleteTargetOnDeploy": true,
@@ -155,6 +155,11 @@
             "isWholeLine": true,
         },
         {
+            "text": "rv.M",
+            "color": "#e8c468",
+            "isWholeLine": true,
+        },
+        {
             "text": "rv.S",
             "color": "#f3ffbd",
             "isWholeLine": true,
@@ -165,11 +170,11 @@
             "isWholeLine": true,
         },
         {
-            "text": "| IMAGE |",
+            "text": "| IMG |",
             "color": "#0f8f69",
         },
         {
-            "text": "| IMAGE2 |",
+            "text": "| IMG2 |",
             "color": "#0f8f69",
         },
         {
@@ -226,6 +231,14 @@
         },
         {
             "text": "_[[Q]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[PYTHON]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[LATEX]]",
             "color": "#4989a2",
         },
     ],
@@ -352,6 +365,8 @@
         "stds",
         "yapf"
     ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
 }
 // ========================================================================== //
 // bottom
