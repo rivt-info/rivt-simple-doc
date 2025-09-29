@@ -6,7 +6,7 @@ rv.M("""Meta Data
     
     rv_authD = {
         "authors": "rholland",
-        "version": "0.5.1",
+        "version": "0.5.2",
         "email": "rod.h.holland@gmail.com",
         "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
         "license": "https://opensource.org/license/mit/",
