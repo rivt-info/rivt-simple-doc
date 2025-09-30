@@ -19,6 +19,7 @@
             ]
         }
     ],
+    "editor.colorDecoratorsActivatedOn": "clickAndHover",
     "files.associations": {
         "*.py": "python"
     },
@@ -27,25 +28,25 @@
     ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "fsdeploy.deployOnSave": true,
     "fsdeploy.nodes": [
         {
-            "source": "E:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
-            "target": "C:/git/git-rivt-simple-single-doc",
+            "source": "${workspaceFolder}",
+            "target": "E:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
             "include": "**/*.*",
-            "exclude": "",
+            "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
             "name": "4790k"
         },
         {
-            "source": "C:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
-            "target": "C:/git/git-rivt-simple-single-doc",
+            "source": "${workspaceFolder}",
+            "target": "C:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
             "include": "**/*.*",
-            "exclude": "",
+            "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
             "name": "yoga-laptop"
         }
     ],
-    "fsdeploy.deployOnSave": false,
     "actionButtons": {
         "defaultColor": "#ff0034",
         "reloadButton": "♻️",
@@ -201,14 +202,18 @@
         },
         {
             "text": "| DOC |",
-            "color": "#f4a462",
+            "color": "#e76e50",
         },
         {
             "text": "| ATTACH |",
-            "color": "#f4a462",
+            "color": "#e76e50",
         },
         {
             "text": ":=",
+            "color": "#e8c468",
+        },
+        {
+            "text": "<=",
             "color": "#e76e50",
         },
         {
@@ -339,6 +344,7 @@
     "editor.inlayHints.enabled": "off",
     "editor.formatOnPaste": false,
     "editor.codeLens": true,
+    "editor.defaultColorDecorators": "always",
     "ShortcutMenuBar.saveAll": true,
     "ShortcutMenuBar.beautify": false,
     "ShortcutMenuBar.showCommands": false,
