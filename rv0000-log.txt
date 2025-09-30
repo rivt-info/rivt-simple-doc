@@ -1,16 +1,16 @@
-09-30 06:00  rv0000-simple-single-doc   INFO     rivt file : rv0000-simple-single-doc.py
-09-30 06:00  rv0000-simple-single-doc   INFO     rivt file path : C:\git\git-rivt-simple-single-doc
-09-30 06:00  rv0000-simple-single-doc   INFO     rivt backup : C:\git\git-rivt-simple-single-doc\rv0000-simple-single-doc.bak
-09-30 06:00  rv0000-simple-single-doc   INFO     Doc start
-09-30 06:00  rv0000-simple-single-doc   INFO     SECTION 1 - type I
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[T]
-09-30 06:00  rv0000-simple-single-doc   INFO     command : IMG
-09-30 06:00  rv0000-simple-single-doc   DEBUG    STREAM b'IHDR' 16 13
-09-30 06:00  rv0000-simple-single-doc   DEBUG    STREAM b'pHYs' 41 9
-09-30 06:00  rv0000-simple-single-doc   DEBUG    STREAM b'IDAT' 62 8192
-09-30 06:00  rv0000-simple-single-doc   INFO     SECTION 2 - type V
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[T]
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[E]
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[E]
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[E]
-09-30 06:00  rv0000-simple-single-doc   INFO     tag : _[E]
+09-30 06:03  rv0000-simple-single-doc   INFO     rivt file : rv0000-simple-single-doc.py
+09-30 06:03  rv0000-simple-single-doc   INFO     rivt file path : C:\git\git-rivt-simple-single-doc
+09-30 06:03  rv0000-simple-single-doc   INFO     rivt backup : C:\git\git-rivt-simple-single-doc\rv0000-simple-single-doc.bak
+09-30 06:03  rv0000-simple-single-doc   INFO     Doc start
+09-30 06:03  rv0000-simple-single-doc   INFO     SECTION 1 - type I
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[T]
+09-30 06:03  rv0000-simple-single-doc   INFO     command : IMG
+09-30 06:03  rv0000-simple-single-doc   DEBUG    STREAM b'IHDR' 16 13
+09-30 06:03  rv0000-simple-single-doc   DEBUG    STREAM b'pHYs' 41 9
+09-30 06:03  rv0000-simple-single-doc   DEBUG    STREAM b'IDAT' 62 8192
+09-30 06:03  rv0000-simple-single-doc   INFO     SECTION 2 - type V
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[T]
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[E]
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[E]
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[E]
+09-30 06:03  rv0000-simple-single-doc   INFO     tag : _[E]
