@@ -6,7 +6,7 @@ rv.M("""Meta Data
     
     rv_authD = {
         "authors": "rholland",
-        "version": "0.5.5",
+        "version": "0.6.1",
         "email": "rod.h.holland@gmail.com",
         "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
         "license": "https://opensource.org/license/mit/",
@@ -14,12 +14,14 @@ rv.M("""Meta Data
         }
     
     rv_headerL = ["date", "time", "file", "version"]
+
+    rv_localB = True
     
     """)
 
-rv.I("""Load Combinations and Geometry 
+rv.I("""Load Combinations
 
-    Dead and live load contributions to beam UDL.
+    Dead and Live Load contributions to beam UDL.
 
     ASCE 7-05 Load Effects _[T]
 
@@ -31,20 +33,20 @@ rv.I("""Load Combinations and Geometry
     16-3            1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
     =============   ==============================================
 
-    | IMG | rvlocal | beam.png | 0.35, Beam Geometry _[F]
+    | IMG | beam.png | 0.35, Beam Geometry _[F]
     """)
 
 # %%
-rv.V("""Loads and Geometry | rvlocal 
+rv.V("""Loads and Geometry
 
     Beam Loads and Properties _[T]
-    D_1 := 3.8*PSF | KPA, 2 | joists DL         
-    D_2 := 2.1*PSF | KPA, 2 | plywood DL          
-    D_3 := 10.0*PSF | KPA, 2 | partitions DL       
-    D_4 := 2*0.5*KLF | KNLM, 2 | fixed machinery  DL
-    L_1 := 40*PSF | KPA, 2 | ASCE7-O5 LL 
-    W_1 := 2*FT |  M, 2 | beam spacing  
-    S_1 := 14*FT | M, 2 | beam span 
+    D_1 := 3.8*PSF | PSF, KPA, 2 | joists DL         
+    D_2 := 2.1*PSF | PSF, KPA, 2 | plywood DL          
+    D_3 := 10.0*PSF | PSF, KPA, 2 | partitions DL       
+    D_4 := 2*0.5*KLF | KLF, KNLM, 2 | fixed machinery  DL
+    L_1 := 40*PSF | PSF, KPA, 2 | ASCE7-O5 LL 
+    
+    | VALUE | beam1-v.csv | Beam Geometry _[T]
 
     Total UDL factored dead load  _[E]
     dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | KLF, KNLM, 2 | ASCE7-05 Eq. 16-2
@@ -56,12 +58,13 @@ rv.V("""Loads and Geometry | rvlocal
     omega_1 <= dl_1 + ll_1 | KLF, KNLM, 2 | ASCE7-05 Eq. 16-2
 
     Bending moment at mid-span  _[E]
-    m_1 <= omega_1 * S_1**2 / 8 | FT_KIPS, M_KN, 2 | mid-span UDL moment 
+    m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, KN_M, 2 | mid-span UDL moment 
 
     """)
 
 # %%
-rv.S("""Publish Doc
+rv.S("""Publish Doc 
 
-    | DOC | rvlocal | rstpdf | rivtdoc1.ini 
+    | DOC | . | text, rivtdoc1.ini 
+    
     """)
