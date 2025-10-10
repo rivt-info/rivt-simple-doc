@@ -21,8 +21,6 @@ rv.M("""Meta Data
 
 rv.I("""Load Combinations
 
-    Dead and Live Load contributions to beam UDL.
-
     ASCE 7-05 Load Effects _[T]
 
     =============   ==============================================
@@ -37,7 +35,7 @@ rv.I("""Load Combinations
     """)
 
 # %%
-rv.V("""Loads and Geometry
+rv.V("""UDL and Beam Geometry
 
     Beam Loads and Properties _[T]
     D_1 := 3.8*PSF | PSF, KPA, 2 | joists DL         

@@ -31,20 +31,18 @@
     "fsdeploy.deployOnSave": true,
     "fsdeploy.nodes": [
         {
-            "source": "${workspaceFolder}",
-            "target": "E:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
+            "source": "C:/git/rivt-simple-doc-git",
+            "target": "E:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
-            "name": "4790k"
         },
         {
-            "source": "${workspaceFolder}",
-            "target": "C:/OneDrive/StL-Proj2/2025/rivt-simple-single-doc",
+            "source": "C:/git/rivt-simple-doc-git",
+            "target": "C:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
-            "name": "yoga-laptop"
         }
     ],
     "actionButtons": {
