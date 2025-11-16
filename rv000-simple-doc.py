@@ -1,7 +1,18 @@
 #! python
-# %% Start
+# %% meta
 import rivtlib.rvapi as rv
 
+rv.I("""section-label | private, show, section 
+
+    text
+    
+    """)
+
+rv.I("""test 
+
+    text
+    
+    """)
 rv.M("""Meta Data
     
     rv_authD = {
@@ -12,12 +23,16 @@ rv.M("""Meta Data
         "license": "https://opensource.org/license/mit/",
         "fork1": ["", "", "", ""],
         }
-    
+
     rv_headerL = ["date", "time", "file", "version"]
 
     rv_localB = True
+
+    rv_docnameS = "Beam Moment"
     
+   
     """)
+
 
 rv.I("""Load Combinations
 
@@ -31,17 +46,26 @@ rv.I("""Load Combinations
     16-3            1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
     =============   ==============================================
 
-    | IMG | beam.png | 0.35, Beam Geometry _[F]
+    | IMAGE | beam.png | 0.35, Beam Geometry _[I]
+
     """)
 
-# %%
+rv.I("""test1 | private, show, section 
+
+    start typing what you want
+
+    
+    
+    """)
+
+# %% values
 rv.V("""UDL and Beam Geometry
 
     Beam Loads and Properties _[T]
     D_1 := 3.8*PSF | PSF, KPA, 2 | joists DL         
     D_2 := 2.1*PSF | PSF, KPA, 2 | plywood DL          
     D_3 := 10.0*PSF | PSF, KPA, 2 | partitions DL       
-    D_4 := 2*0.5*KLF | KLF, KNLM, 2 | fixed machinery  DL
+    D_4 := 1.0*KLF | KLF, KNLM, 2 | fixed machinery  DL
     L_1 := 40*PSF | PSF, KPA, 2 | ASCE7-O5 LL 
     
     | VALUE | beam1-v.csv | Beam Geometry _[T]
@@ -58,11 +82,27 @@ rv.V("""UDL and Beam Geometry
     Bending moment at mid-span  _[E]
     m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, KN_M, 2 | mid-span UDL moment 
 
+    
+
+    """)
+# %% tools
+rv.T("""Section Properties
+
+    Evaluate the beam section properties.
+
+    | PYTHON | section.py | rvnamespace, append
+    
+    """)
+# %%
+rv.V("""Beam Stress
+
+    Calculate section modulus _[E]
+    section_1 <= section(12*IN, 18*IN)
+
     """)
 
-# %%
 rv.S("""Publish Doc 
 
-    | DOC | . | text, rivtdoc1.ini 
+    | PUBLISH | simpledoc.txt | text
     
     """)

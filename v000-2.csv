@@ -1,7 +1,7 @@
 D_1 = 3.8*PSF,PSF,KPA,2,joists DL
 D_2 = 2.1*PSF,PSF,KPA,2,plywood DL
 D_3 = 10.0*PSF,PSF,KPA,2,partitions DL
-D_4 = 2*0.5*KLF,KLF,KNLM,2,fixed machinery  DL
+D_4 = 1.0*KLF,KLF,KNLM,2,fixed machinery  DL
 L_1 = 40*PSF,PSF,KPA,2,ASCE7-O5 LL
 dl_1 = 1.24 * KIP/FT,KLF,KNLM,2,ASCE7-05 Eq. 16-2
 ll_1 = 128.00 * FT·PSF,KLF,KNLM,2,ASCE7-05 Eq. 16-2

@@ -32,14 +32,14 @@
     "fsdeploy.nodes": [
         {
             "source": "C:/git/rivt-simple-doc-git",
-            "target": "E:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
+            "target": "E:/OneDrive/StL-rivt/rivt-simple-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
         },
         {
             "source": "C:/git/rivt-simple-doc-git",
-            "target": "C:/OneDrive/StL-Proj2/2025/rivt-simple-doc",
+            "target": "C:/OneDrive/StL-rivt/rivt-simple-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
@@ -120,8 +120,14 @@
                 "name": "ExplorerSort",
                 "color": "yellow",
                 "useVsCodeApi": true,
-                "command": "settings.cycle.explorerSort2",
+                "command": "settings.cycle.explorerSort2"
             },
+            {
+                "name": "NewFile",
+                "color": "yellow",
+                "useVsCodeApi": true,
+                "command": "ShortcutMenuBar.newFile"
+            }
         ]
     },
     "todohighlight.include": [
@@ -138,6 +144,14 @@
         "isWholeLine": false,
     },
     "todohighlight.keywords": [
+        {
+            "text": ":=",
+            "color": "#e76e50",
+        },
+        {
+            "text": "<=",
+            "color": "#e76e50",
+        },
         {
             "text": "rv.R",
             "color": "#e8c468",
@@ -179,11 +193,11 @@
             "isWholeLine": true,
         },
         {
-            "text": "| IMG |",
+            "text": "| IMAGE |",
             "color": "#0f8f69",
         },
         {
-            "text": "| IMG2 |",
+            "text": "| IMAGE2 |",
             "color": "#0f8f69",
         },
         {
@@ -199,31 +213,19 @@
             "color": "#0f8f69",
         },
         {
-            "text": "| DOC |",
-            "color": "#e76e50",
+            "text": "| PUBLISH |",
+            "color": "#0f8f69",
         },
         {
             "text": "| ATTACH |",
-            "color": "#e76e50",
+            "color": "#0f8f69",
         },
         {
-            "text": ":=",
-            "color": "#e8c468",
+            "text": "| PYTHON |",
+            "color": "#0f8f69",
         },
         {
-            "text": "<=",
-            "color": "#e76e50",
-        },
-        {
-            "text": "_[T]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[F]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[E]",
+            "text": "_[#]",
             "color": "#4989a2",
         },
         {
@@ -231,11 +233,35 @@
             "color": "#4989a2",
         },
         {
-            "text": "_[S]",
+            "text": "_[R]",
             "color": "#4989a2",
         },
         {
-            "text": "_[V]",
+            "text": "_[T]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[I]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[E]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[A]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[L]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[P]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[H]",
             "color": "#4989a2",
         },
         {
@@ -252,6 +278,14 @@
         },
         {
             "text": "_[[LATEX]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[RST]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[HTML]]",
             "color": "#4989a2",
         },
     ],
@@ -332,7 +366,6 @@
     "editor.formatOnType": false,
     "editor.parameterHints.cycle": false,
     "editor.hover.enabled": false,
-    "editor.tabCompletion": "on",
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": "none",
@@ -343,6 +376,13 @@
     "editor.formatOnPaste": false,
     "editor.codeLens": true,
     "editor.defaultColorDecorators": "always",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
     "ShortcutMenuBar.saveAll": true,
     "ShortcutMenuBar.beautify": false,
     "ShortcutMenuBar.showCommands": false,
@@ -355,10 +395,6 @@
     "ShortcutMenuBar.openSettings": false,
     "latex-workshop.message.warning.show": false,
     "accessibility.verbosity.notification": false,
-    "gutterpreview.imagePreviewMaxHeight": 0,
-    "gutterpreview.imagePreviewMaxWidth": 0,
-    "gutterpreview.enableReferenceLookup": true,
-    "gutterpreview.sourceFolder": "",
     "git.postCommitCommand": "sync",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -381,6 +417,7 @@
     ],
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": [],
+    "python.analysis.autoImportCompletions": false
 }
 // ========================================================================== //
 // bottom

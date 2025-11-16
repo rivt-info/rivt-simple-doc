@@ -16,6 +16,8 @@ rv.M("""Meta Data
     rv_headerL = ["date", "time", "file", "version"]
 
     rv_localB = True
+
+    rv_docnameS = "Beam Moment"
     
     """)
 
@@ -41,7 +43,7 @@ rv.V("""UDL and Beam Geometry
     D_1 := 3.8*PSF | PSF, KPA, 2 | joists DL         
     D_2 := 2.1*PSF | PSF, KPA, 2 | plywood DL          
     D_3 := 10.0*PSF | PSF, KPA, 2 | partitions DL       
-    D_4 := 2*0.5*KLF | KLF, KNLM, 2 | fixed machinery  DL
+    D_4 := 1.0*KLF | KLF, KNLM, 2 | fixed machinery  DL
     L_1 := 40*PSF | PSF, KPA, 2 | ASCE7-O5 LL 
     
     | VALUE | beam1-v.csv | Beam Geometry _[T]
