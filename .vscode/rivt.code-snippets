@@ -135,84 +135,92 @@
             "| text | src/${1:rel-path} | ${0|plain, literal, rivt|}"
         ]
     },
-    "tag sympy [ _s ]": {
-        "prefix": "_s",
-        "description": "sympy equation tag",
-        "scope": "python",
-        "body": [
-            "_[s]"
-        ]
-    },
-    "tag figure [ _f }": {
-        "prefix": "_f",
-        "description": "figure caption",
-        "scope": "python",
-        "body": [
-            "_[f]"
-        ]
-    },
-    "tag equation [ _e }": {
-        "prefix": "_e",
-        "description": "equation label tag",
-        "scope": "python",
-        "body": [
-            "_[e]"
-        ]
-    },
-    "tag center [ _c ]": {
-        "prefix": "_c",
-        "description": "center line",
+    "tag center ( _ce )": {
+        "prefix": "_ce",
+        "description": "tag center line",
         "scope": "python",
         "body": [
             "_[c]"
         ]
     },
-    "tag footnote [ _# ]": {
-        "prefix": "_#",
+    "tag right ( _ri )1": {
+        "prefix": "_ri",
+        "description": "tag right justify",
+        "scope": "python",
+        "body": [
+            "_[r]"
+        ]
+    },
+    "tag ascii math  ( _as )": {
+        "prefix": "_as",
+        "description": "tag ascii equation",
+        "scope": "python",
+        "body": [
+            "_[a]"
+        ]
+    },
+    "tag equation ( _eq }": {
+        "prefix": "_eq",
+        "description": "tag equation label and number",
+        "scope": "python",
+        "body": [
+            "_[e]"
+        ]
+    },
+    "tag figure ( _fi  }": {
+        "prefix": "_fi",
+        "description": "tag figure caption and number",
+        "scope": "python",
+        "body": [
+            "_[f]"
+        ]
+    },
+    "tag table ( _ta  )": {
+        "prefix": "_ta",
+        "description": "tag table title and number",
+        "scope": "python",
+        "body": [
+            "_[t]"
+        ]
+    },
+    "tag footnote [  _fo  ]": {
+        "prefix": "_fo",
         "description": "tag a footnote ",
         "scope": "python",
         "body": [
             "_[#]"
         ]
     },
-    "tag table [ _t ]": {
-        "prefix": "_t",
-        "description": "table title tag",
-        "scope": "python",
-        "body": [
-            "_[t]"
-        ]
-    },
-    "tag footnote description [ _d ]": {
-        "prefix": "_d",
-        "description": "tag footnote description",
-        "scope": "python",
-        "body": [
-            "_[D]"
-        ]
-    },
-    "tag horizontal line  _[ h ]": {
-        "prefix": "_-",
-        "description": "insert horizontal line",
-        "scope": "python",
-        "body": [
-            "_[H]"
-        ]
-    },
-    "tag new page [ _n ]": {
-        "prefix": "_n",
-        "description": "start a new page",
-        "scope": "python",
-        "body": [
-            "_[n]"
-        ]
-    },
-    "tag url [ _u ]": {
-        "prefix": "_u",
+    "tag url ( _ur )": {
+        "prefix": "_[u",
         "description": "tag url",
         "scope": "python",
         "body": [
-            "_[ https://${1: url} ${0: url label} url]"
+            "_[u] https://${1: url}, ${0: url label}"
+        ]
+    },
+    "tag new page ( === )": {
+        "prefix": "===",
+        "description": "start a new page",
+        "scope": "python",
+        "body": [
+            "==============="
+        ]
+    },
+    "tag horizontal line  ---": {
+        "prefix": "---",
+        "description": "insert horizontal line",
+        "scope": "python",
+        "body": [
+            "---------------"
+        ]
+    },
+    "block tag center ( _[c )": {
+        "prefix": "_[c",
+        "description": "block tag center",
+        "scope": "python",
+        "body": [
+            "_[[c]]"
         ]
     },
     "block tag latex ( _[l )": {
@@ -247,17 +255,9 @@
             "_[[i]]"
         ]
     },
-    "block tag center ( _[c )": {
-        "prefix": "_[c",
-        "description": "block tag center",
-        "scope": "python",
-        "body": [
-            "_[[c]]"
-        ]
-    },
-    "block tag quit [ _[q ]": {
-        "prefix": "__q",
-        "description": "tag block quit",
+    "block tag quit ( _[q  )": {
+        "prefix": "__[q",
+        "description": "block tag quit",
         "scope": "python",
         "body": [
             "__[[q]]"

@@ -1,17 +1,16 @@
-10-14 00:53  rv000-simple-doc   INFO     rivt file : rv000-simple-doc.py
-10-14 00:53  rv000-simple-doc   INFO     rivt file path : C:\git\rivt-simple-doc-git
-10-14 00:53  rv000-simple-doc   INFO     rivt backup : C:\git\rivt-simple-doc-git\rv000-simple-doc.bak
-10-14 00:53  rv000-simple-doc   INFO     Doc start
-10-14 00:53  rv000-simple-doc   INFO     SECTION 1 - type I
-10-14 00:53  rv000-simple-doc   INFO     tag : _[T]
-10-14 00:53  rv000-simple-doc   INFO     command : IMG
-10-14 00:53  rv000-simple-doc   DEBUG    STREAM b'IHDR' 16 13
-10-14 00:53  rv000-simple-doc   DEBUG    STREAM b'pHYs' 41 9
-10-14 00:53  rv000-simple-doc   DEBUG    STREAM b'IDAT' 62 8192
-10-14 00:53  rv000-simple-doc   INFO     SECTION 2 - type V
-10-14 00:53  rv000-simple-doc   INFO     tag : _[T]
-10-14 00:53  rv000-simple-doc   INFO     command : VALUE
-10-14 00:53  rv000-simple-doc   INFO     tag : _[E]
-10-14 00:53  rv000-simple-doc   INFO     tag : _[E]
-10-14 00:53  rv000-simple-doc   INFO     tag : _[E]
-10-14 00:53  rv000-simple-doc   INFO     tag : _[E]
+12-05 13:15  rv000-simple-doc   INFO     Doc start
+12-05 13:15  rv000-simple-doc   INFO     rivt backup : C:\git\rivt-simple-doc-git\rv000-simple-doc.bak
+12-05 13:15  rv000-simple-doc   INFO     SECTION 1 - type I
+12-05 13:15  rv000-simple-doc   INFO     tag : _[T]
+12-05 13:15  rv000-simple-doc   INFO     command : IMAGE
+12-05 13:15  rv000-simple-doc   DEBUG    STREAM b'IHDR' 16 13
+12-05 13:15  rv000-simple-doc   DEBUG    STREAM b'pHYs' 41 9
+12-05 13:15  rv000-simple-doc   DEBUG    STREAM b'IDAT' 62 8192
+12-05 13:15  rv000-simple-doc   INFO     SECTION 2 - type V
+12-05 13:15  rv000-simple-doc   INFO     tag : _[T]
+12-05 13:15  rv000-simple-doc   INFO     command : VALUE
+12-05 13:15  rv000-simple-doc   INFO     tag : _[E]
+12-05 13:15  rv000-simple-doc   INFO     tag : _[E]
+12-05 13:15  rv000-simple-doc   INFO     tag : _[E]
+12-05 13:15  rv000-simple-doc   INFO     tag : _[E]
+12-05 13:15  rv000-simple-doc   INFO     command : VALUE

@@ -1,38 +1,9 @@
 #! python
-# %% meta
 import rivtlib.rvapi as rv
 
-rv.I("""section-label | private, show, section 
+# rv_localB=True
 
-    text
-    
-    """)
-
-rv.I("""test 
-
-    text
-    
-    """)
-rv.M("""Meta Data
-    
-    rv_authD = {
-        "authors": "rholland",
-        "version": "0.6.1",
-        "email": "rod.h.holland@gmail.com",
-        "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
-        "license": "https://opensource.org/license/mit/",
-        "fork1": ["", "", "", ""],
-        }
-
-    rv_headerL = ["date", "time", "file", "version"]
-
-    rv_localB = True
-
-    rv_docnameS = "Beam Moment"
-    
-   
-    """)
-
+# %% loads
 
 rv.I("""Load Combinations
 
@@ -50,13 +21,6 @@ rv.I("""Load Combinations
 
     """)
 
-rv.I("""test1 | private, show, section 
-
-    start typing what you want
-
-    
-    
-    """)
 
 # %% values
 rv.V("""UDL and Beam Geometry
@@ -82,27 +46,51 @@ rv.V("""UDL and Beam Geometry
     Bending moment at mid-span  _[E]
     m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, KN_M, 2 | mid-span UDL moment 
 
+    # if previously defined in report
+    | VALUE | out/vals/vB01-3.csv | steel beam properties
     
+    # if pulled from outside source
+    | VALUE | src/vals/somename.csv | steel beam properties
+
 
     """)
-# %% tools
-rv.T("""Section Properties
 
-    Evaluate the beam section properties.
-
-    | PYTHON | section.py | rvnamespace, append
-    
-    """)
-# %%
+# %% values
 rv.V("""Beam Stress
 
+    | PYTHON | section.py | rvnamespace, append
+
     Calculate section modulus _[E]
-    section_1 <= section(12*IN, 18*IN)
+    section_1 <= rectsect(12*IN, 18*IN)
+
+    """)
+
+# %% tool
+rv.T("""Metadata
+
+    Author data
+
+    _[[PYTHON]]
+    rv_authD = {
+    "authors": ["rholland"],
+    "version": "0.7.1",
+    "email": "rod.h.holland@gmail.com",
+    "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
+    "license": "https://opensource.org/license/mit/",
+    "fork1": ["author", "version", "email", "repo"],
+    "fork2": [],
+    }
+    _[[END]]
 
     """)
 
 rv.S("""Publish Doc 
 
-    | PUBLISH | simpledoc.txt | text
+    _[[LAYOUT]]
+    rv_docnameS = "Beam Moment"
+    rv_headerL = ["date", "time", "file", "version"]
+    _[[END]]
     
+    | PUBLISH | simpledoc.txt | text
+
     """)

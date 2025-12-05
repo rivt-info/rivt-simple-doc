@@ -1,25 +1,9 @@
 #! python
-# %% Start
 import rivtlib.rvapi as rv
 
-rv.M("""Meta Data
-    
-    rv_authD = {
-        "authors": "rholland",
-        "version": "0.6.1",
-        "email": "rod.h.holland@gmail.com",
-        "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
-        "license": "https://opensource.org/license/mit/",
-        "fork1": ["", "", "", ""],
-        }
-    
-    rv_headerL = ["date", "time", "file", "version"]
+# rv_localB=True
 
-    rv_localB = True
-
-    rv_docnameS = "Beam Moment"
-    
-    """)
+# %% loads
 
 rv.I("""Load Combinations
 
@@ -33,10 +17,12 @@ rv.I("""Load Combinations
     16-3            1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
     =============   ==============================================
 
-    | IMG | beam.png | 0.35, Beam Geometry _[F]
+    | IMAGE | beam.png | 0.35, Beam Geometry _[I]
+
     """)
 
-# %%
+
+# %% values
 rv.V("""UDL and Beam Geometry
 
     Beam Loads and Properties _[T]
@@ -60,11 +46,50 @@ rv.V("""UDL and Beam Geometry
     Bending moment at mid-span  _[E]
     m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, KN_M, 2 | mid-span UDL moment 
 
+    # if previously defined in report
+    | VALUE | out/vals/vB01-3.csv | steel beam properties
+    
+    # if pulled from outside source
+    | VALUE | src/vals/somename.csv | steel beam properties
+
+
+    """)
+# %% tools
+rv.T("""Beam Section Properties
+
+    | PYTHON | section.py | rvnamespace, append
+    
     """)
 
+
 # %%
+rv.V("""Beam Stress
+
+    Calculate section modulus _[E]
+    section_1 <= rectsect(12*IN, 18*IN)
+
+    """)
+
+rv.T("""Author Data
+
+    _[[PYTHON]]
+    rv_authD = {
+    "authors": ["rholland"],
+    "version": "0.7.1",
+    "email": "rod.h.holland@gmail.com",
+    "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
+    "license": "https://opensource.org/license/mit/",
+    "fork1": ["author", "version", "email", "repo"],
+    "fork2": [],
+    }
+    _[[END]]
+
+    """)
+
 rv.S("""Publish Doc 
 
-    | DOC | . | text, rivtdoc1.ini 
-    
+    rv_docnameS = "Beam Moment"
+    rv_headerL = ["date", "time", "file", "version"]
+    | PUBLISH | simpledoc.txt | text
+
     """)

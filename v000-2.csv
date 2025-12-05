@@ -4,6 +4,3 @@ D_3 = 10.0*PSF,PSF,KPA,2,partitions DL
 D_4 = 1.0*KLF,KLF,KNLM,2,fixed machinery  DL
 L_1 = 40*PSF,PSF,KPA,2,ASCE7-O5 LL
 dl_1 = 1.24 * KIP/FT,KLF,KNLM,2,ASCE7-05 Eq. 16-2
-ll_1 = 128.00 * FT·PSF,KLF,KNLM,2,ASCE7-05 Eq. 16-2
-omega_1 = 1.37 * KIP/FT,KLF,KNLM,2,ASCE7-05 Eq. 16-2
-m_1 = 33.47 * FT²·KIP/FT,KIP_FT,KN_M,2,mid-span UDL moment
