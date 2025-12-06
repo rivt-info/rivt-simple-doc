@@ -8,7 +8,7 @@ sections.
 """
 
 
-def section(b, d):
+def rectsect(b, d):
     """section modulus of rectangle
 
     Args:
@@ -21,7 +21,7 @@ def section(b, d):
     return b * d**2 / 6.0
 
 
-def inertia(b, d):
+def rectinertia(b, d):
     """moment of inertia of rectangle
 
     Args:

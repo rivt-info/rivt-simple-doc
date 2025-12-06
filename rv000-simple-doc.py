@@ -21,7 +21,6 @@ rv.I("""Load Combinations
 
     """)
 
-
 # %% values
 rv.V("""UDL and Beam Geometry
 
@@ -32,7 +31,7 @@ rv.V("""UDL and Beam Geometry
     D_4 := 1.0*KLF | KLF, KNLM, 2 | fixed machinery  DL
     L_1 := 40*PSF | PSF, KPA, 2 | ASCE7-O5 LL 
     
-    | VALUE | beam1-v.csv | Beam Geometry _[T]
+    | VALUES | beam1-v.csv | Beam Geometry _[T]
 
     Total UDL factored dead load  _[E]
     dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | KLF, KNLM, 2 | ASCE7-05 Eq. 16-2
@@ -46,31 +45,18 @@ rv.V("""UDL and Beam Geometry
     Bending moment at mid-span  _[E]
     m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, KN_M, 2 | mid-span UDL moment 
 
-    # if previously defined in report
-    | VALUE | out/vals/vB01-3.csv | steel beam properties
-    
-    # if pulled from outside source
-    | VALUE | src/vals/somename.csv | steel beam properties
-
-
-    """)
-
-# %% values
-rv.V("""Beam Stress
-
-    | PYTHON | section.py | rvnamespace, append
+    | PYTHON | sectionprop.py | rivt, nodocstring
 
     Calculate section modulus _[E]
-    section_1 <= rectsect(12*IN, 18*IN)
+    section_1 <= rectsect(10*IN, 18*IN) | IN3, CM3, 2 | rectangle section modulus
 
     """)
 
 # %% tool
 rv.T("""Metadata
 
-    Author data
-
-    _[[PYTHON]]
+    
+    _[[PYTHON]] Author data
     rv_authD = {
     "authors": ["rholland"],
     "version": "0.7.1",
