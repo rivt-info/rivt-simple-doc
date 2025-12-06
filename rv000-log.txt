@@ -1,20 +1,18 @@
-12-06 01:41  rv000-simple-doc   INFO     Doc start
-12-06 01:41  rv000-simple-doc   INFO     rivt backup : C:\git\rivt-simple-doc-git\rv000-simple-doc.bak
-12-06 01:41  rv000-simple-doc   INFO     SECTION 1 - type I
-12-06 01:41  rv000-simple-doc   INFO     tag : _[T]
-12-06 01:41  rv000-simple-doc   INFO     command : IMAGE
-12-06 01:41  rv000-simple-doc   DEBUG    STREAM b'IHDR' 16 13
-12-06 01:41  rv000-simple-doc   DEBUG    STREAM b'pHYs' 41 9
-12-06 01:41  rv000-simple-doc   DEBUG    STREAM b'IDAT' 62 8192
-12-06 01:41  rv000-simple-doc   INFO     SECTION 2 - type V
-12-06 01:41  rv000-simple-doc   INFO     tag : _[T]
-12-06 01:41  rv000-simple-doc   INFO     command : VALUES
-12-06 01:41  rv000-simple-doc   INFO     tag : _[E]
-12-06 01:41  rv000-simple-doc   INFO     tag : _[E]
-12-06 01:41  rv000-simple-doc   INFO     tag : _[E]
-12-06 01:41  rv000-simple-doc   INFO     tag : _[E]
-12-06 01:41  rv000-simple-doc   INFO     command : PYTHON
-12-06 01:41  rv000-simple-doc   INFO     tag : _[E]
-12-06 01:41  rv000-simple-doc   INFO     SECTION 3 - type T
-12-06 01:41  rv000-simple-doc   INFO     tag : _[[PYTHON]] Author data
-12-06 01:41  rv000-simple-doc   INFO     tag : _[[END]]
+12-06 03:13  rv000-simple-doc   INFO     Doc start
+12-06 03:13  rv000-simple-doc   INFO     rivt backup : C:\git\rivt-simple-doc-git\rv000-simple-doc.bak
+12-06 03:13  rv000-simple-doc   INFO     SECTION 1 - type I
+12-06 03:13  rv000-simple-doc   INFO     tag : _[T]
+12-06 03:13  rv000-simple-doc   INFO     command : IMAGE
+12-06 03:13  rv000-simple-doc   DEBUG    STREAM b'IHDR' 16 13
+12-06 03:13  rv000-simple-doc   DEBUG    STREAM b'pHYs' 41 9
+12-06 03:13  rv000-simple-doc   DEBUG    STREAM b'IDAT' 62 8192
+12-06 03:13  rv000-simple-doc   INFO     SECTION 2 - type V
+12-06 03:13  rv000-simple-doc   INFO     tag : _[T]
+12-06 03:13  rv000-simple-doc   INFO     command : VALUES
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]
+12-06 03:13  rv000-simple-doc   INFO     command : PYTHON
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]
+12-06 03:13  rv000-simple-doc   INFO     tag : _[E]

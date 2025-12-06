@@ -2,4 +2,5 @@ API log: rv000-simple-doc.py
 ---------------------------------------
 [rv.I] Load Combinations
 [rv.V] UDL and Beam Geometry
+[rv.S] Metadata
 [rv.S] Publish Doc 
