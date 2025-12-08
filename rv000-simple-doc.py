@@ -37,11 +37,11 @@ rv.V("""Loads and Geometry
     | VALUES | beam1-v.csv | Beam Geometry _[T]
 
     Uniform Distributed Loads
-    dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | klf, kN_m, 2 | dead load ASCE7-05 2.3.2  _[E]
+    dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | klf, kN_m, 2 | dead load : ASCE7-05 2.3.2  _[E]
 
-    ll_1 <= 1.6 * W_1 * L_1 | klf, kN_m, 2 | live load ASCE7-05 2.3.2 _[E]
+    ll_1 <= 1.6 * W_1 * L_1 | klf, kN_m, 2 | live load : ASCE7-05 2.3.2 _[E]
     
-    omega_1 <= dl_1 + ll_1 | klf, kN_m, 2 | total load ASCE7-05 2.3.2 _[E]
+    omega_1 <= dl_1 + ll_1 | klf, kN_m, 2 | total load : ASCE7-05 2.3.2 _[E]
 
     """)
 
@@ -60,7 +60,7 @@ rv.V("""Forces and Stress
         
         m_1 <= omega_1 * S_1**2 / 8 | ftkips, mkN, 2 | mid-span UDL moment _[E]
 
-        fb_1 <= m_1 / section_1 | psi, MPA, 2 | bending stress _[E]
+        fb_1 <= m_1 / section_1 | psi, MPA, 1 | bending stress _[E]
     
     """)
 # %% tool
