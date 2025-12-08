@@ -19,42 +19,50 @@ rv.I("""Load Combinations
 
     | IMAGE | beam.png | 0.35, Beam Geometry _[I]
 
+    Bending Stress Formula _[E]
+    σ1 = M1 / S1 _[A]
+
     """)
 
 # %% values
-rv.V("""UDL and Beam Geometry
+rv.V("""Loads and Geometry 
 
     Beam Loads and Properties _[T]
-    D_1 := 3.8*PSF | PSF, kPA, 2 | joists DL         
-    D_2 := 2.1*PSF | PSF, kPA, 2 | plywood DL          
-    D_3 := 10.0*PSF | PSF, kPA, 2 | partitions DL       
-    D_4 := 1.1*KIP__FT | KIP__FT, kN__M, 2 | fixed machinery  DL
-    L_1 := 40*PSF | PSF, kPA, 2 | ASCE7-O5 LL 
+    D_1 := 3.8*psf | psf, kPA, 2 | joists DL         
+    D_2 := 2.1*psf | psf, kPA, 2 | plywood DL          
+    D_3 := 10.0*psf | psf, kPA, 2 | partitions DL       
+    D_4 := 2*0.5*klf |klf, kN_m , 2 | fixed machinery  DL
+    L_1 := 40*psf | psf, kPA, 2 | ASCE7-O5 LL 
     
     | VALUES | beam1-v.csv | Beam Geometry _[T]
 
-    Total UDL factored dead load  _[E]
-    dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | KIP__FT, kN__M, 2 | ASCE7-05 Eq. 16-2
+    Uniform Distributed Loads
+    dl_1 <= 1.2 * (W_1 *(D_1 + D_2 + D_3) + D_4) | klf, kN_m, 2 | dead load ASCE7-05 2.3.2  _[E]
 
-    Total UDL factored live load  _[E]
-    ll_1 <= 1.6 * W_1 * L_1 | KIP__FT, kN__M, 2 | ASCE7-05 Eq. 16-2
+    ll_1 <= 1.6 * W_1 * L_1 | klf, kN_m, 2 | live load ASCE7-05 2.3.2 _[E]
     
-    Total Load  _[E]
-    omega_1 <= dl_1 + ll_1 | KIP__FT, kN__M, 2 | ASCE7-05 Eq. 16-2
-
-    Bending moment at mid-span  _[E]
-    m_1 <= omega_1 * S_1**2 / 8 | KIP_FT, kN_M, 2 | mid-span UDL moment 
-
-    | PYTHON | sectionprop.py | rivt, nodocstring
-
-    Calculate section modulus from function _[E]
-    section_1 <= rectsect(10*IN, 18*IN) | IN3, CM3, 2 | rectangular section modulus
-
-    Calculate moment of inertia from function _[E]
-    inertia_1 <= rectinertia(10*IN, 18*IN) | IN4, CM4, 1 | rectangular moment of inertia
+    omega_1 <= dl_1 + ll_1 | klf, kN_m, 2 | total load ASCE7-05 2.3.2 _[E]
 
     """)
 
+# %% section
+rv.V("""Beam Section Properties
+
+    | PYTHON | sectionprop.py | rivt, nodocstring
+
+    section_1 <= rectsect(10*inch, 18*inch) | in3, cm3, 2 | rectangular section modulus _[E]
+
+    inertia_1 <= rectinertia(10*inch, 18*inch) | in4, cm4, 1 | rectangular moment of inertia _[E]
+
+    """)
+
+rv.V("""Forces and Stress
+        
+        m_1 <= omega_1 * S_1**2 / 8 | ftkips, mkN, 2 | mid-span UDL moment _[E]
+
+        fb_1 <= m_1 / section_1 | psi, MPA, 2 | bending stress _[E]
+    
+    """)
 # %% tool
 rv.S("""Metadata
 
@@ -80,6 +88,10 @@ rv.S("""Publish Doc
     rv_headerL = ["date", "time", "file", "version"]
     _[[END]]
     
+    | ATTACH |
+
     | PUBLISH | simpledoc.txt | text
+
+    | ATTACH |
 
     """)
