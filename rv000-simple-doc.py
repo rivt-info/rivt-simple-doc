@@ -88,10 +88,8 @@ rv.S("""Publish Doc
     rv_headerL = ["date", "time", "file", "version"]
     _[[END]]
     
-    | ATTACH |
 
-    | PUBLISH | simpledoc.txt | text
+    | PUBLISH | rivt | html
 
-    | ATTACH |
 
     """)
