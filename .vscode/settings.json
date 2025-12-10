@@ -31,15 +31,15 @@
     "fsdeploy.deployOnSave": true,
     "fsdeploy.nodes": [
         {
-            "source": "C:/git/rivt-simple-doc-git",
-            "target": "E:/OneDrive/StL-rivt/rivt-simple-doc",
+            "source": "C:/git/rivt-single-doc-git",
+            "target": "E:/OneDrive/StL-rivt/rivt-single-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
         },
         {
-            "source": "C:/git/rivt-simple-doc-git",
-            "target": "C:/OneDrive/StL-rivt/rivt-simple-doc",
+            "source": "C:/git/rivt-single-doc-git",
+            "target": "C:/OneDrive/StL-rivt/rivt-single-doc",
             "include": "**/*.*",
             "exclude": ".git,.gitignore",
             "deleteTargetOnDeploy": true,
@@ -378,6 +378,8 @@
         "comments": "on",
         "strings": "on"
     },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
     "ShortcutMenuBar.saveAll": true,
     "ShortcutMenuBar.beautify": false,
     "ShortcutMenuBar.showCommands": false,

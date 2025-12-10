@@ -56,7 +56,7 @@ rv.V("""Beam Section Properties
 
     """)
 
-rv.V("""Forces and Stress
+rv.V("""Force and Stress
         
         m_1 <= omega_1 * S_1**2 / 8 | ftkips, mkN, 2 | mid-span UDL moment _[E]
 
@@ -81,17 +81,14 @@ rv.S("""Metadata
 
     """)
 
-rv.S("""Publish Doc 
+rv.D("""Publish Doc 
 
     _[[LAYOUT]]
     rv_docnameS = "Beam Moment"
     rv_headerL = ["date", "time", "file", "version"]
     _[[END]]
     
-    | ATTACH |
 
-    | PUBLISH | simpledoc.txt | text
-
-    | ATTACH |
+    | PUBLISH | rivt | html
 
     """)
