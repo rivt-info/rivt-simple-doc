@@ -1,8 +1,7 @@
 API log: rv000-simple-doc.py
 ---------------------------------------
-[rv.I] Load Combinations
-[rv.V] Loads and Geometry 
-[rv.V] Beam Section Properties
-[rv.V] Forces and Stress
-[rv.S] Metadata
-[rv.S] Publish Doc 
+Load Combinations
+Loads and Geometry 
+Beam Section Properties
+Force and Stress
+Publish Doc 
