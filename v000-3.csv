@@ -1,2 +1,2 @@
-section_1 = 540.00 in3,in3,cm3,2,rectangular section modulus  [Eq 5]
-inertia_1 = 4860.0 in4,in4,cm4,1,rectangular moment of inertia  [Eq 6]
+section_1 = 540.00 in3,in3,cm3,2,rect sect modulus - function  [Eq 5]
+inertia_1 = 4860.0 in4,in4,cm4,1,rect moment of inertia - function  [Eq 6]

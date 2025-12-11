@@ -1,18 +1,18 @@
-12-09 19:17  rv000-single-doc   INFO     Doc start
-12-09 19:17  rv000-single-doc   INFO     rivtlib version: 0.6.1
-12-09 19:17  rv000-single-doc   INFO     rivt backup : C:\git\rivt-single-doc-git\rv000-single-doc.bak
-12-09 19:17  rv000-single-doc   INFO     SECTION 1 - type I
-12-09 19:17  rv000-single-doc   INFO     tag : _[T]
-12-09 19:17  rv000-single-doc   INFO     command : IMAGE
-12-09 19:17  rv000-single-doc   DEBUG    STREAM b'IHDR' 16 13
-12-09 19:17  rv000-single-doc   DEBUG    STREAM b'pHYs' 41 9
-12-09 19:17  rv000-single-doc   DEBUG    STREAM b'IDAT' 62 8192
-12-09 19:17  rv000-single-doc   INFO     tag : _[E]
-12-09 19:17  rv000-single-doc   INFO     tag : _[A]
-12-09 19:17  rv000-single-doc   INFO     SECTION 2 - type V
-12-09 19:17  rv000-single-doc   INFO     tag : _[T]
-12-09 19:17  rv000-single-doc   INFO     command : VALUES
-12-09 19:17  rv000-single-doc   INFO     SECTION 3 - type V
-12-09 19:17  rv000-single-doc   INFO     command : PYTHON
-12-09 19:17  rv000-single-doc   INFO     SECTION 4 - type V
-12-09 19:17  rv000-single-doc   INFO     SECTION : Publish Doc 
+12-11 14:56  rv000-single-doc   INFO     Doc start
+12-11 14:56  rv000-single-doc   INFO     rivtlib version: 0.6.1
+12-11 14:56  rv000-single-doc   INFO     rivt backup : C:\git\rivt-single-doc-git\rv000-single-doc.bak
+12-11 14:56  rv000-single-doc   INFO     SECTION 1 - type I
+12-11 14:56  rv000-single-doc   INFO     tag : _[T]
+12-11 14:56  rv000-single-doc   INFO     command : FIGURE
+12-11 14:56  rv000-single-doc   DEBUG    STREAM b'IHDR' 16 13
+12-11 14:56  rv000-single-doc   DEBUG    STREAM b'pHYs' 41 9
+12-11 14:56  rv000-single-doc   DEBUG    STREAM b'IDAT' 62 8192
+12-11 14:56  rv000-single-doc   INFO     tag : _[E]
+12-11 14:56  rv000-single-doc   INFO     tag : _[A]
+12-11 14:56  rv000-single-doc   INFO     SECTION 2 - type V
+12-11 14:56  rv000-single-doc   INFO     tag : _[T]
+12-11 14:56  rv000-single-doc   INFO     command : VALUES
+12-11 14:56  rv000-single-doc   INFO     SECTION 3 - type V
+12-11 14:56  rv000-single-doc   INFO     command : PYTHON
+12-11 14:56  rv000-single-doc   INFO     SECTION 4 - type V
+12-11 14:56  rv000-single-doc   INFO     SECTION : Publish Doc 

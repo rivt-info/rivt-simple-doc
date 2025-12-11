@@ -196,6 +196,14 @@
             "color": "#0f8f69",
         },
         {
+            "text": "| FIGURE |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| FIGURE2 |",
+            "color": "#0f8f69",
+        },
+        {
             "text": "| TABLE |",
             "color": "#0f8f69",
         },
@@ -253,6 +261,10 @@
         },
         {
             "text": "_[D]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[F]",
             "color": "#4989a2",
         },
         {
