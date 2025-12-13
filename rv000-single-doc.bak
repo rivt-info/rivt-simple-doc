@@ -7,15 +7,16 @@ import rivtlib.rvapi as rv
 rv.I("""Load Combinations 
 
     ASCE 7-05 Load Effects _[T]
-    =============   ==============================================
-    Equation No.    Load Combination
-    =============   ==============================================
-    16-1            1.4(D+F)
-    16-2            1.2(D+F+T) + 1.6(L+H) + 0.5(Lr or S or R)
-    16-3            1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
-    =============   ==============================================
 
-    | FIGURE | beam.png | 60, Beam Geometry
+    ============= ================================================
+    Equation No.    Load Combination
+    ============= ================================================
+    16-1           1.4(D+F)
+    16-2           1.2(D+F+T) + 1.6(L+H) + 0.5(Lr or S or R)
+    16-3           1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
+    ============= ================================================
+
+    | FIGURE | beam.png | 65, Beam Geometry
 
     Bending Stress Formula _[E]
     σ1 = M1 / S1 _[A]
@@ -86,6 +87,6 @@ rv.D("""Publish Doc
     _[[END]]
     
 
-    | PUBLISH | rivt | html
+    | PUBLISH | rivt | rst2pdf
 
     """)

@@ -244,10 +244,6 @@
             "color": "#4989a2",
         },
         {
-            "text": "_[I]",
-            "color": "#4989a2",
-        },
-        {
             "text": "_[E]",
             "color": "#4989a2",
         },
@@ -264,15 +260,7 @@
             "color": "#4989a2",
         },
         {
-            "text": "_[F]",
-            "color": "#4989a2",
-        },
-        {
             "text": "_[[VALUES]]",
-            "color": "#4989a2",
-        },
-        {
-            "text": "_[[END]]",
             "color": "#4989a2",
         },
         {
@@ -293,6 +281,10 @@
         },
         {
             "text": "_[[HTML]]",
+            "color": "#4989a2",
+        },
+        {
+            "text": "_[[END]]",
             "color": "#4989a2",
         },
     ],
@@ -372,7 +364,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": false,
     "editor.parameterHints.cycle": false,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": "off",
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": "none",
