@@ -1072,7 +1072,7 @@ endobj
 endobj
 20 0 obj
 <<
-/Author () /CreationDate (D:20251213040451-08'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251213040451-08'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20251215171603-08'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251215171603-08'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -1088,17 +1088,17 @@ endobj
 endobj
 23 0 obj
 <<
-/Dest [ 4 0 R /XYZ 48.51969 343.1495 0 ] /Next 24 0 R /Parent 21 0 R /Prev 22 0 R /Title ([ 2v ] Loads and Geometry)
+/Dest [ 4 0 R /XYZ 48.51969 336.9095 0 ] /Next 24 0 R /Parent 21 0 R /Prev 22 0 R /Title ([ 2v ] Loads and Geometry)
 >>
 endobj
 24 0 obj
 <<
-/Dest [ 5 0 R /XYZ 48.51969 436.9071 0 ] /Next 25 0 R /Parent 21 0 R /Prev 23 0 R /Title ([ 3v ] Beam Section Properties)
+/Dest [ 5 0 R /XYZ 48.51969 376.9071 0 ] /Next 25 0 R /Parent 21 0 R /Prev 23 0 R /Title ([ 3v ] Beam Section Properties)
 >>
 endobj
 25 0 obj
 <<
-/Dest [ 5 0 R /XYZ 48.51969 137.5471 0 ] /Parent 21 0 R /Prev 24 0 R /Title ([ 4v ] Force and Stress)
+/Dest [ 6 0 R /XYZ 48.51969 655.3071 0 ] /Parent 21 0 R /Prev 24 0 R /Title ([ 4v ] Force and Stress)
 >>
 endobj
 26 0 obj
@@ -1108,59 +1108,49 @@ endobj
 endobj
 27 0 obj
 <<
-/Length 9038
+/Length 6896
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 704.3471 cm
+1 0 0 1 48.51969 704.1071 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F1+0 10.8 Tf 12.96 TL ([ 1i ] Load Combinations) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL ([ 1i ] Load Combinations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 686.3471 cm
+1 0 0 1 48.51969 686.1071 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (Table 1) Tj /F2+0 9 Tf 12 TL (: ASCE 7-05 Load Effects) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL 0 0 0 rg /F1+0 10 Tf 12 TL (Table 1) Tj /F2+0 10 Tf 12 TL (: ASCE 7-05 Load Effects) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 680.3471 cm
+1 0 0 1 48.51969 680.1071 cm
 Q
 q
-1 0 0 1 48.51969 608.3471 cm
+1 0 0 1 48.51969 608.1071 cm
 q
-.878431 .878431 .878431 rg
-n 0 72 514.9606 -18 re f*
 1 1 1 rg
+n 0 72 514.9606 -18 re f*
+.878431 .878431 .878431 rg
 n 0 54 514.9606 -18 re f*
-.878431 .878431 .878431 rg
+1 1 1 rg
 n 0 36 514.9606 -18 re f*
-1 1 1 rg
+.878431 .878431 .878431 rg
 n 0 18 514.9606 -18 re f*
-1 1 1 rg
-n 0 72 514.9606 -18 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 57 cm
 q
-1 1 1 rg
-n 0 0 97.74571 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 19.86236 0 Td /F1+0 9 Tf 12 TL (Equation No.) Tj T* -19.86236 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 16.63897 0 Td /F1+0 10 Tf 12 TL (Equation No.) Tj T* -16.63897 0 Td ET
 Q
 Q
 q
 1 0 0 1 115.7457 57 cm
 q
-1 1 1 rg
-n 0 0 393.2149 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 155.5054 0 Td /F1+0 9 Tf 12 TL (Load Combination) Tj T* -155.5054 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 150.9385 0 Td /F1+0 10 Tf 12 TL (Load Combination) Tj T* -150.9385 0 Td ET
 Q
 Q
 0 0 0 rg
@@ -1168,79 +1158,86 @@ q
 1 0 0 1 6 39 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 38.68731 0 Td /F2+0 10 Tf 12 TL (16-1) Tj T* -38.68731 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (16-1) Tj T* ET
 Q
 Q
 q
 1 0 0 1 115.7457 39 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 177.5596 0 Td /F2+0 10 Tf 12 TL (1.4\(D+F\)) Tj T* -177.5596 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.4\(D+F\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 38.68731 0 Td /F2+0 10 Tf 12 TL (16-2) Tj T* -38.68731 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (16-2) Tj T* ET
 Q
 Q
 q
 1 0 0 1 115.7457 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 106.1387 0 Td /F2+0 10 Tf 12 TL (1.2\(D+F+T\) + 1.6\(L+H\) + 0.5\(Lr or S or R\)) Tj T* -106.1387 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.2\(D+F+T\) + 1.6\(L+H\) + 0.5\(Lr or S or R\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 6 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 38.68731 0 Td /F2+0 10 Tf 12 TL (16-3) Tj T* -38.68731 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (16-3) Tj T* ET
 Q
 Q
 q
 1 0 0 1 115.7457 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 95.87748 0 Td /F2+0 10 Tf 12 TL (1.2\(D+F+T\) + 1.6\(Lr or S or R\) + \(f1L or 0.8W\)) Tj T* -95.87748 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.2\(D+F+T\) + 1.6\(Lr or S or R\) + \(f1L or 0.8W\)) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 54 m 514.9606 54 l S
+n 0 36 m 514.9606 36 l S
+n 0 18 m 514.9606 18 l S
+n 109.7457 0 m 109.7457 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 608.3471 cm
+1 0 0 1 48.51969 602.1071 cm
 Q
 q
-1 0 0 1 138.6378 460.3495 cm
+1 0 0 1 138.6378 454.1095 cm
 q
 334.7244 0 0 129.9976 0 0 cm
 /FormXob.30d882397c32f901e41e49d25cc9bd1b Do
 Q
 Q
 q
-1 0 0 1 48.51969 436.3495 cm
+1 0 0 1 48.51969 430.1095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 223.315 0 Td /F2+0 9 Tf 12 TL (Beam Geometry) Tj T* -223.315 0 Td ET
+BT 1 0 0 1 0 2 Tm 219.5189 0 Td /F2+0 10 Tf 12 TL (Beam Geometry) Tj T* -219.5189 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 418.3495 cm
+1 0 0 1 48.51969 412.1095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 382.2985 0 Td /F1+0 9 Tf 12 TL (Bending Stress Formula [Eq 1]) Tj T* -382.2985 0 Td ET
+BT 1 0 0 1 0 2 Tm 375.2048 0 Td /F2+0 10 Tf 12 TL (Bending Stress Formula [Eq 1]) Tj T* -375.2048 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 363.1495 cm
+1 0 0 1 48.51969 356.9095 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1254,88 +1251,70 @@ n -6 -6 513.7606 48 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F3+0 9 Tf 12 TL (     M\001) Tj T* (\002\001 = \003\003) Tj T* (     S\001) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F3+0 10 Tf 12 TL (     M\001) Tj T* (\002\001 = \003\003) Tj T* (     S\001) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 330.1895 cm
+1 0 0 1 48.51969 323.7095 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F1+0 10.8 Tf 12.96 TL ([ 2v ] Loads and Geometry) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL ([ 2v ] Loads and Geometry) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 312.1895 cm
+1 0 0 1 48.51969 305.7095 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (Table 2) Tj /F2+0 9 Tf 12 TL (: Beam Loads and Properties) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL 0 0 0 rg /F1+0 10 Tf 12 TL (Table 2) Tj /F2+0 10 Tf 12 TL (: Beam Loads and Properties) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 294.1895 cm
+1 0 0 1 48.51969 287.7095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL (Beam Geometry [file: beam1-v.csv]) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (Beam Geometry [file: beam1-v.csv]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 288.1895 cm
+1 0 0 1 48.51969 281.7095 cm
 Q
 q
-1 0 0 1 48.51969 234.1895 cm
+1 0 0 1 48.51969 227.7095 cm
 q
-.878431 .878431 .878431 rg
-n 0 54 514.9606 -18 re f*
 1 1 1 rg
+n 0 54 514.9606 -18 re f*
+.878431 .878431 .878431 rg
 n 0 36 514.9606 -18 re f*
-.878431 .878431 .878431 rg
-n 0 18 514.9606 -18 re f*
 1 1 1 rg
-n 0 54 514.9606 -18 re f*
-.133333 .133333 .133333 rg
+n 0 18 514.9606 -18 re f*
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 116.7402 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 40.07784 0 Td /F1+0 9 Tf 12 TL (variable) Tj T* -40.07784 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 38.04537 0 Td /F1+0 10 Tf 12 TL (variable) Tj T* -38.04537 0 Td ET
 Q
 Q
 q
 1 0 0 1 134.7402 39 cm
 q
-1 1 1 rg
-n 0 0 90.99213 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 33.22873 0 Td /F1+0 9 Tf 12 TL (value) Tj T* -33.22873 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 31.86569 0 Td /F1+0 10 Tf 12 TL (value) Tj T* -31.86569 0 Td ET
 Q
 Q
 q
 1 0 0 1 237.7323 39 cm
 q
-1 1 1 rg
-n 0 0 103.8661 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 36.68624 0 Td /F1+0 9 Tf 12 TL ([value]) Tj T* -36.68624 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 34.99215 0 Td /F1+0 10 Tf 12 TL ([value]) Tj T* -34.99215 0 Td ET
 Q
 Q
 q
 1 0 0 1 353.5984 39 cm
 q
-1 1 1 rg
-n 0 0 155.3622 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 52.2895 0 Td /F1+0 9 Tf 12 TL (description) Tj T* -52.2895 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 49.46821 0 Td /F1+0 10 Tf 12 TL (description) Tj T* -49.46821 0 Td ET
 Q
 Q
 0 0 0 rg
@@ -1343,86 +1322,94 @@ q
 1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 48.70455 0 Td /F2+0 10 Tf 12 TL (W_1) Tj T* -48.70455 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (W_1) Tj T* ET
 Q
 Q
 q
 1 0 0 1 134.7402 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 30.84274 0 Td /F2+0 10 Tf 12 TL (2.00 ft) Tj T* -30.84274 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.00 ft) Tj T* ET
 Q
 Q
 q
 1 0 0 1 237.7323 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 36.1152 0 Td /F2+0 10 Tf 12 TL (0.61 m) Tj T* -36.1152 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (0.61 m) Tj T* ET
 Q
 Q
 q
 1 0 0 1 353.5984 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 45.44966 0 Td /F2+0 10 Tf 12 TL (beam spacing) Tj T* -45.44966 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (beam spacing) Tj T* ET
 Q
 Q
 q
 1 0 0 1 6 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 50.57955 0 Td /F2+0 10 Tf 12 TL (S_1) Tj T* -50.57955 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (S_1) Tj T* ET
 Q
 Q
 q
 1 0 0 1 134.7402 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 27.98386 0 Td /F2+0 10 Tf 12 TL (14.00 ft) Tj T* -27.98386 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (14.00 ft) Tj T* ET
 Q
 Q
 q
 1 0 0 1 237.7323 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 36.1152 0 Td /F2+0 10 Tf 12 TL (4.27 m) Tj T* -36.1152 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (4.27 m) Tj T* ET
 Q
 Q
 q
 1 0 0 1 353.5984 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 51.82173 0 Td /F2+0 10 Tf 12 TL (beam span) Tj T* -51.82173 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (beam span) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 0 18 m 514.9606 18 l S
+n 128.7402 0 m 128.7402 54 l S
+n 231.7323 0 m 231.7323 54 l S
+n 347.5984 0 m 347.5984 54 l S
+n 0 54 m 514.9606 54 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 54 l S
+n 514.9606 0 m 514.9606 54 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 234.1895 cm
+1 0 0 1 48.51969 221.7095 cm
 Q
 q
-1 0 0 1 48.51969 216.1895 cm
+1 0 0 1 48.51969 203.7095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL (Uniform Distributed Loads) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (Uniform Distributed Loads) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 198.1895 cm
+1 0 0 1 48.51969 185.7095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 374.0851 0 Td /F1+0 9 Tf 12 TL (dead load : ASCE7-05 2.3.2 [Eq 2]) Tj T* -374.0851 0 Td ET
+BT 1 0 0 1 0 2 Tm 362.7487 0 Td /F2+0 10 Tf 12 TL (dead load : ASCE7-05 2.3.2 [Eq 2]) Tj T* -362.7487 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 166.9895 cm
+1 0 0 1 48.51969 154.5095 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1436,128 +1423,143 @@ n -6 -6 513.7606 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F3+0 9 Tf 12 TL (dl\001 = 1.2\004D\005 + 1.2\004W\001\004\(D\001 + D\006 + D\007\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (dl\001 = 1.2\004D\005 + 1.2\004W\001\004\(D\001 + D\006 + D\007\)) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 154.9895 cm
+1 0 0 1 48.51969 142.5095 cm
 Q
 q
-1 0 0 1 48.51969 82.98947 cm
+1 0 0 1 48.51969 106.5095 cm
 q
-.878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
 1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
-q
-1 0 0 1 6 39 cm
-q
-1 1 1 rg
-n 0 0 59.02905 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 20.87048 0 Td /F1+0 9 Tf 12 TL (dl_1) Tj T* -20.87048 0 Td ET
-Q
-Q
-q
-1 0 0 1 77.02905 39 cm
-q
-1 1 1 rg
-n 0 0 76.78632 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 25.60068 0 Td /F1+0 9 Tf 12 TL ([dl_1 ]) Tj T* -25.60068 0 Td ET
-Q
-Q
-q
-1 0 0 1 173.1333 63 cm
-Q
-q
-1 0 0 1 165.8154 51 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 173.1333 39 cm
-Q
-q
-1 0 0 1 192.4513 39 cm
-q
-1 1 1 rg
-n 0 0 59.02905 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 21.76038 0 Td /F1+0 9 Tf 12 TL (D_1) Tj T* -21.76038 0 Td ET
-Q
-Q
-q
-1 0 0 1 263.4803 39 cm
-q
-1 1 1 rg
-n 0 0 50.15042 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 16.30153 0 Td /F1+0 9 Tf 12 TL (W_1) Tj T* -16.30153 0 Td ET
-Q
-Q
-q
-1 0 0 1 325.6307 39 cm
-q
-1 1 1 rg
-n 0 0 59.02905 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 21.76038 0 Td /F1+0 9 Tf 12 TL (D_2) Tj T* -21.76038 0 Td ET
-Q
-Q
-q
-1 0 0 1 396.6598 39 cm
-q
-1 1 1 rg
-n 0 0 67.90768 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 26.19969 0 Td /F1+0 9 Tf 12 TL (D_3) Tj T* -26.19969 0 Td ET
-Q
-Q
-q
-1 0 0 1 476.5675 39 cm
-q
-1 1 1 rg
-n 0 0 32.39316 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 8.442428 0 Td /F1+0 9 Tf 12 TL (D_4) Tj T* -8.442428 0 Td ET
-Q
-Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 12.75427 0 Td /F2+0 10 Tf 12 TL (1.24 klf) Tj T* -12.75427 0 Td ET
+BT 1 0 0 1 0 2 Tm 19.91003 0 Td /F1+0 10 Tf 12 TL (dl_1) Tj T* -19.91003 0 Td ET
 Q
 Q
 q
-1 0 0 1 77.02905 12 cm
+1 0 0 1 77.02905 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 11.13486 0 Td /F2+0 10 Tf 12 TL (18.07 kN_m) Tj T* -11.13486 0 Td ET
+BT 1 0 0 1 0 2 Tm 24.17929 0 Td /F1+0 10 Tf 12 TL ([dl_1 ]) Tj T* -24.17929 0 Td ET
+Q
+Q
+q
+1 0 0 1 173.1333 27 cm
+Q
+q
+1 0 0 1 165.8154 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 173.1333 3 cm
+Q
+q
+1 0 0 1 192.4513 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 15.32668 0 Td /F1+0 10 Tf 12 TL (W_1) Tj T* -15.32668 0 Td ET
+Q
+Q
+q
+1 0 0 1 254.6017 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 25.33812 0 Td /F1+0 10 Tf 12 TL (D_3) Tj T* -25.33812 0 Td ET
+Q
+Q
+q
+1 0 0 1 334.5094 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 20.8988 0 Td /F1+0 10 Tf 12 TL (D_1) Tj T* -20.8988 0 Td ET
+Q
+Q
+q
+1 0 0 1 405.5384 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 20.8988 0 Td /F1+0 10 Tf 12 TL (D_2) Tj T* -20.8988 0 Td ET
+Q
+Q
+q
+1 0 0 1 476.5675 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 7.580856 0 Td /F1+0 10 Tf 12 TL (D_4) Tj T* -7.580856 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 0 m 514.9606 0 l S
+n 71.02905 0 m 71.02905 36 l S
+n 159.8154 0 m 159.8154 36 l S
+n 186.4513 0 m 186.4513 36 l S
+n 248.6017 0 m 248.6017 36 l S
+n 328.5094 0 m 328.5094 36 l S
+n 399.5384 0 m 399.5384 36 l S
+n 470.5675 0 m 470.5675 36 l S
+n 0 36 m 514.9606 36 l S
+n 0 0 m 0 36 l S
+n 514.9606 0 m 514.9606 36 l S
+Q
+Q
+Q
+q
+1 0 0 1 42.51969 751.6535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
+Q
+Q
+q
+1 0 0 1 42.51969 28.34646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 473.7917 0 Td /F1+0 10 Tf 12 TL (Page 1 of 3) Tj T* -473.7917 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+28 0 obj
+<<
+/Length 9178
+>>
+stream
+1 0 0 1 0 0 cm 
+q
+1 0 0 1 48.51969 681.3071 cm
+q
+1 1 1 rg
+n 0 36 514.9606 -36 re f*
+0 0 0 rg
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.24 klf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 77.02905 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (18.07 kN_m) Tj T* ET
 Q
 Q
 q
@@ -1567,90 +1569,78 @@ q
 1 0 0 1 165.8154 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 165.8154 3 cm
 Q
 q
-1 0 0 1 192.4513 12 cm
+1 0 0 1 192.4513 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 11.20154 0 Td /F2+0 10 Tf 12 TL (3.80 psf) Tj T* -11.20154 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.00 ft) Tj T* ET
 Q
 Q
 q
-1 0 0 1 263.4803 12 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm 10.42189 0 Td /F2+0 10 Tf 12 TL (2.00 ft) Tj T* -10.42189 0 Td ET
-Q
-Q
-q
-1 0 0 1 325.6307 12 cm
+1 0 0 1 254.6017 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 11.20154 0 Td /F2+0 10 Tf 12 TL (2.10 psf) Tj T* -11.20154 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (10.00 psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 396.6598 12 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm 12.78197 0 Td /F2+0 10 Tf 12 TL (10.00 psf) Tj T* -12.78197 0 Td ET
-Q
-Q
-q
-1 0 0 1 476.5675 12 cm
+1 0 0 1 334.5094 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 10.62529 0 Td /F2+0 10 Tf 12 TL (klf) Tj T* -10.62529 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (3.80 psf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 405.5384 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.10 psf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 476.5675 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (klf) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 71.02905 0 m 71.02905 36 l S
+n 159.8154 0 m 159.8154 36 l S
+n 186.4513 0 m 186.4513 36 l S
+n 248.6017 0 m 248.6017 36 l S
+n 328.5094 0 m 328.5094 36 l S
+n 399.5384 0 m 399.5384 36 l S
+n 470.5675 0 m 470.5675 36 l S
+n 0 0 m 0 36 l S
+n 514.9606 0 m 514.9606 36 l S
+n 0 0 m 514.9606 0 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 82.98947 cm
+1 0 0 1 48.51969 675.3071 cm
 Q
 q
-1 0 0 1 42.51969 751.6535 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm 209.7088 0 Td /F1+0 9 Tf 12 TL ([ 1i ] Load Combinations) Tj T* -209.7088 0 Td ET
-Q
-Q
-q
-1 0 0 1 42.51969 28.34646 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (Date:) Tj /F2+0 9 Tf 12 TL ( 2025-12-13 ) Tj /F3+0 9 Tf 12 TL (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj /F2+0 9 Tf 12 TL ( ) Tj /F1+0 9 Tf 12 TL (Page:) Tj /F2+0 9 Tf 12 TL ( 1) Tj T* ET
-Q
-Q
- 
-endstream
-endobj
-28 0 obj
-<<
-/Length 9497
->>
-stream
-1 0 0 1 0 0 cm 
-q
-1 0 0 1 48.51969 705.3071 cm
+1 0 0 1 48.51969 657.3071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 380.299 0 Td /F1+0 9 Tf 12 TL (live load : ASCE7-05 2.3.2 [Eq 3]) Tj T* -380.299 0 Td ET
+BT 1 0 0 1 0 2 Tm 370.4977 0 Td /F2+0 10 Tf 12 TL (live load : ASCE7-05 2.3.2 [Eq 3]) Tj T* -370.4977 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 674.1071 cm
+1 0 0 1 48.51969 626.1071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1664,45 +1654,35 @@ n -6 -6 513.7606 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F3+0 9 Tf 12 TL (ll\001 = 1.6\004L\001\004W\001) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (ll\001 = 1.6\004L\001\004W\001) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 662.1071 cm
+1 0 0 1 48.51969 614.1071 cm
 Q
 q
-1 0 0 1 48.51969 590.1071 cm
+1 0 0 1 48.51969 542.1071 cm
 q
+1 1 1 rg
+n 0 72 514.9606 -36 re f*
 .878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
-1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 102.4357 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 44.04817 0 Td /F1+0 9 Tf 12 TL (ll_1) Tj T* -44.04817 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 43.25154 0 Td /F1+0 10 Tf 12 TL (ll_1) Tj T* -43.25154 0 Td ET
 Q
 Q
 q
 1 0 0 1 120.4357 39 cm
 q
-1 1 1 rg
-n 0 0 116.7402 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 47.05196 0 Td /F1+0 9 Tf 12 TL ([ll_1 ]) Tj T* -47.05196 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 45.7944 0 Td /F1+0 10 Tf 12 TL ([ll_1 ]) Tj T* -45.7944 0 Td ET
 Q
 Q
 q
@@ -1712,7 +1692,7 @@ q
 1 0 0 1 249.1759 51 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
@@ -1721,38 +1701,30 @@ Q
 q
 1 0 0 1 292.0892 39 cm
 q
-1 1 1 rg
-n 0 0 116.7402 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 51.40475 0 Td /F1+0 9 Tf 12 TL (L_1) Tj T* -51.40475 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 50.63082 0 Td /F1+0 10 Tf 12 TL (L_1) Tj T* -50.63082 0 Td ET
 Q
 Q
 q
 1 0 0 1 420.8294 39 cm
 q
-1 1 1 rg
-n 0 0 88.13123 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 35.29194 0 Td /F1+0 9 Tf 12 TL (W_1) Tj T* -35.29194 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 34.31708 0 Td /F1+0 10 Tf 12 TL (W_1) Tj T* -34.31708 0 Td ET
 Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 34.45759 0 Td /F2+0 10 Tf 12 TL (0.13 klf) Tj T* -34.45759 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (0.13 klf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 120.4357 12 cm
+1 0 0 1 120.4357 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 33.97066 0 Td /F2+0 10 Tf 12 TL (1.87 kN_m) Tj T* -33.97066 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.87 kN_m) Tj T* ET
 Q
 Q
 q
@@ -1762,47 +1734,55 @@ q
 1 0 0 1 249.1759 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 249.1759 3 cm
 Q
 q
-1 0 0 1 292.0892 12 cm
+1 0 0 1 292.0892 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 37.1982 0 Td /F2+0 10 Tf 12 TL (40.00 psf) Tj T* -37.1982 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (40.00 psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 420.8294 12 cm
+1 0 0 1 420.8294 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 29.4123 0 Td /F2+0 10 Tf 12 TL (2.00 ft) Tj T* -29.4123 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.00 ft) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 114.4357 0 m 114.4357 72 l S
+n 243.1759 0 m 243.1759 72 l S
+n 286.0892 0 m 286.0892 72 l S
+n 414.8294 0 m 414.8294 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 590.1071 cm
+1 0 0 1 48.51969 536.1071 cm
 Q
 q
-1 0 0 1 48.51969 572.1071 cm
+1 0 0 1 48.51969 518.1071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 374.6608 0 Td /F1+0 9 Tf 12 TL (total load : ASCE7-05 2.3.2 [Eq 4]) Tj T* -374.6608 0 Td ET
+BT 1 0 0 1 0 2 Tm 364.9313 0 Td /F2+0 10 Tf 12 TL (total load : ASCE7-05 2.3.2 [Eq 4]) Tj T* -364.9313 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 540.9071 cm
+1 0 0 1 48.51969 486.9071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1816,45 +1796,35 @@ n -6 -6 513.7606 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F3+0 9 Tf 12 TL (dl\001 = -ll\001 + \010\001) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (dl\001 = -ll\001 + \010\001) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 528.9071 cm
+1 0 0 1 48.51969 474.9071 cm
 Q
 q
-1 0 0 1 48.51969 456.9071 cm
+1 0 0 1 48.51969 402.9071 cm
 q
+1 1 1 rg
+n 0 72 514.9606 -36 re f*
 .878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
-1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 99.94796 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 30.42711 0 Td /F1+0 9 Tf 12 TL (omega_1) Tj T* -30.42711 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 28.25523 0 Td /F1+0 10 Tf 12 TL (omega_1) Tj T* -28.25523 0 Td ET
 Q
 Q
 q
 1 0 0 1 117.948 39 cm
 q
-1 1 1 rg
-n 0 0 122.3376 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 37.47347 0 Td /F1+0 9 Tf 12 TL ([omega_1 ]) Tj T* -37.47347 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 34.84065 0 Td /F1+0 10 Tf 12 TL ([omega_1 ]) Tj T* -34.84065 0 Td ET
 Q
 Q
 q
@@ -1864,7 +1834,7 @@ q
 1 0 0 1 252.2855 51 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
@@ -1873,38 +1843,30 @@ Q
 q
 1 0 0 1 285.8699 39 cm
 q
-1 1 1 rg
-n 0 0 133.5324 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 59.5965 0 Td /F1+0 9 Tf 12 TL (ll_1) Tj T* -59.5965 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 58.79987 0 Td /F1+0 10 Tf 12 TL (ll_1) Tj T* -58.79987 0 Td ET
 Q
 Q
 q
 1 0 0 1 431.4023 39 cm
 q
-1 1 1 rg
-n 0 0 77.55837 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 30.13514 0 Td /F1+0 9 Tf 12 TL (dl_1) Tj T* -30.13514 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 29.17469 0 Td /F1+0 10 Tf 12 TL (dl_1) Tj T* -29.17469 0 Td ET
 Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 33.21373 0 Td /F2+0 10 Tf 12 TL (1.37 klf) Tj T* -33.21373 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.37 klf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 117.948 12 cm
+1 0 0 1 117.948 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 33.91048 0 Td /F2+0 10 Tf 12 TL (19.94 kN_m) Tj T* -33.91048 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (19.94 kN_m) Tj T* ET
 Q
 Q
 q
@@ -1914,53 +1876,83 @@ q
 1 0 0 1 252.2855 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 252.2855 3 cm
 Q
 q
-1 0 0 1 285.8699 12 cm
+1 0 0 1 285.8699 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 37.95758 0 Td /F2+0 10 Tf 12 TL (128.00 ft\001psf) Tj T* -37.95758 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (128.00 ft\001psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 431.4023 12 cm
+1 0 0 1 431.4023 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 22.01893 0 Td /F2+0 10 Tf 12 TL (1.24 klf) Tj T* -22.01893 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.24 klf) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 111.948 0 m 111.948 72 l S
+n 246.2855 0 m 246.2855 72 l S
+n 279.8699 0 m 279.8699 72 l S
+n 425.4023 0 m 425.4023 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 456.9071 cm
+1 0 0 1 48.51969 396.9071 cm
 Q
 q
-1 0 0 1 48.51969 423.9471 cm
+1 0 0 1 48.51969 363.7071 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F1+0 10.8 Tf 12.96 TL ([ 3v ] Beam Section Properties) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL ([ 3v ] Beam Section Properties) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 405.9471 cm
+1 0 0 1 48.51969 351.7071 cm
+Q
+q
+1 0 0 1 48.51969 339.7071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 362.6945 0 Td /F1+0 9 Tf 12 TL (rect sect modulus - function [Eq 5]) Tj T* -362.6945 0 Td ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ([Python file: sectionprop.py]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 374.7471 cm
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 333.7071 cm
+Q
+q
+1 0 0 1 48.51969 315.7071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 359.0134 0 Td /F2+0 10 Tf 12 TL (function: rect sect modulus [Eq 5]) Tj T* -359.0134 0 Td ET
+Q
+Q
+q
+1 0 0 1 48.51969 284.5071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1974,45 +1966,35 @@ n -6 -6 513.7606 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F3+0 9 Tf 12 TL (section\001 = rectsect\(10\004inch, 18\004inch\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (section\001 = rectsect\(10\004inch, 18\004inch\)) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 362.7471 cm
+1 0 0 1 48.51969 272.5071 cm
 Q
 q
-1 0 0 1 48.51969 290.7471 cm
+1 0 0 1 48.51969 200.5071 cm
 q
+1 1 1 rg
+n 0 72 514.9606 -36 re f*
 .878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
-1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 164.5579 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 61.57633 0 Td /F1+0 9 Tf 12 TL (section_1) Tj T* -61.57633 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 59.27604 0 Td /F1+0 10 Tf 12 TL (section_1) Tj T* -59.27604 0 Td ET
 Q
 Q
 q
 1 0 0 1 182.5579 39 cm
 q
-1 1 1 rg
-n 0 0 193.9843 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 72.14105 0 Td /F1+0 9 Tf 12 TL ([section_1 ]) Tj T* -72.14105 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 69.37982 0 Td /F1+0 10 Tf 12 TL ([section_1 ]) Tj T* -69.37982 0 Td ET
 Q
 Q
 q
@@ -2022,7 +2004,7 @@ q
 1 0 0 1 388.5422 51 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
@@ -2031,27 +2013,23 @@ Q
 q
 1 0 0 1 432.6817 39 cm
 q
-1 1 1 rg
-n 0 0 76.27897 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 28.53743 0 Td /F1+0 9 Tf 12 TL (inch) Tj T* -28.53743 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 27.47054 0 Td /F1+0 10 Tf 12 TL (inch) Tj T* -27.47054 0 Td ET
 Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 58.18473 0 Td /F2+0 10 Tf 12 TL (540.00 in3) Tj T* -58.18473 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (540.00 in3) Tj T* ET
 Q
 Q
 q
-1 0 0 1 182.5579 12 cm
+1 0 0 1 182.5579 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 67.34369 0 Td /F2+0 10 Tf 12 TL (8849.01 cm3) Tj T* -67.34369 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (8849.01 cm3) Tj T* ET
 Q
 Q
 q
@@ -2061,40 +2039,47 @@ q
 1 0 0 1 388.5422 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 388.5422 3 cm
 Q
 q
-1 0 0 1 432.6817 12 cm
+1 0 0 1 432.6817 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 28.34944 0 Td /F2+0 10 Tf 12 TL (inch) Tj T* -28.34944 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (inch) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 176.5579 0 m 176.5579 72 l S
+n 382.5422 0 m 382.5422 72 l S
+n 426.6817 0 m 426.6817 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 290.7471 cm
+1 0 0 1 48.51969 194.5071 cm
 Q
 q
-1 0 0 1 48.51969 272.7471 cm
+1 0 0 1 48.51969 176.5071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 340.2385 0 Td /F1+0 9 Tf 12 TL (rect moment of inertia - function [Eq 6]) Tj T* -340.2385 0 Td ET
+BT 1 0 0 1 0 2 Tm 336.8698 0 Td /F2+0 10 Tf 12 TL (function: rect moment of inertia [Eq 6]) Tj T* -336.8698 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 241.5471 cm
+1 0 0 1 48.51969 145.3071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2108,142 +2093,82 @@ n -6 -6 513.7606 24 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F3+0 9 Tf 12 TL (inertia\001 = rectinertia\(10\004inch, 18\004inch\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (inertia\001 = rectinertia\(10\004inch, 18\004inch\)) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 229.5471 cm
+1 0 0 1 48.51969 133.3071 cm
 Q
 q
-1 0 0 1 48.51969 157.5471 cm
+1 0 0 1 48.51969 97.30709 cm
 q
-.878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
 1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
-q
-1 0 0 1 6 39 cm
-q
-1 1 1 rg
-n 0 0 164.5579 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 62.77823 0 Td /F1+0 9 Tf 12 TL (inertia_1) Tj T* -62.77823 0 Td ET
-Q
-Q
-q
-1 0 0 1 182.5579 39 cm
-q
-1 1 1 rg
-n 0 0 193.9843 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 73.34296 0 Td /F1+0 9 Tf 12 TL ([inertia_1 ]) Tj T* -73.34296 0 Td ET
-Q
-Q
-q
-1 0 0 1 404.6119 63 cm
-Q
-q
-1 0 0 1 388.5422 51 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 404.6119 39 cm
-Q
-q
-1 0 0 1 432.6817 39 cm
-q
-1 1 1 rg
-n 0 0 76.27897 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 28.53743 0 Td /F1+0 9 Tf 12 TL (inch) Tj T* -28.53743 0 Td ET
-Q
-Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 58.18473 0 Td /F2+0 10 Tf 12 TL (4860.0 in4) Tj T* -58.18473 0 Td ET
+BT 1 0 0 1 0 2 Tm 60.61148 0 Td /F1+0 10 Tf 12 TL (inertia_1) Tj T* -60.61148 0 Td ET
 Q
 Q
 q
-1 0 0 1 182.5579 12 cm
+1 0 0 1 182.5579 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 64.4848 0 Td /F2+0 10 Tf 12 TL (202288.5 cm4) Tj T* -64.4848 0 Td ET
+BT 1 0 0 1 0 2 Tm 70.71527 0 Td /F1+0 10 Tf 12 TL ([inertia_1 ]) Tj T* -70.71527 0 Td ET
 Q
 Q
 q
-1 0 0 1 388.5422 27 cm
+1 0 0 1 404.6119 27 cm
 Q
 q
 1 0 0 1 388.5422 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 388.5422 3 cm
+1 0 0 1 404.6119 3 cm
 Q
 q
-1 0 0 1 432.6817 12 cm
+1 0 0 1 432.6817 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 28.34944 0 Td /F2+0 10 Tf 12 TL (inch) Tj T* -28.34944 0 Td ET
+BT 1 0 0 1 0 2 Tm 27.47054 0 Td /F1+0 10 Tf 12 TL (inch) Tj T* -27.47054 0 Td ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
+n 0 0 m 514.9606 0 l S
+n 176.5579 0 m 176.5579 36 l S
+n 382.5422 0 m 382.5422 36 l S
+n 426.6817 0 m 426.6817 36 l S
 n 0 36 m 514.9606 36 l S
+n 0 0 m 0 36 l S
+n 514.9606 0 m 514.9606 36 l S
 Q
-Q
-Q
-q
-1 0 0 1 48.51969 157.5471 cm
-Q
-q
-1 0 0 1 48.51969 124.5871 cm
-q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F1+0 10.8 Tf 12.96 TL ([ 4v ] Force and Stress) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 106.5871 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm 385.1374 0 Td /F1+0 9 Tf 12 TL (mid-span UDL moment [Eq 7]) Tj T* -385.1374 0 Td ET
 Q
 Q
 q
 1 0 0 1 42.51969 751.6535 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 196.7559 0 Td /F1+0 9 Tf 12 TL ([ 3v ] Beam Section Properties) Tj T* -196.7559 0 Td ET
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
 Q
 Q
 q
 1 0 0 1 42.51969 28.34646 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (Date:) Tj /F2+0 9 Tf 12 TL ( 2025-12-13 ) Tj /F3+0 9 Tf 12 TL (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj /F2+0 9 Tf 12 TL ( ) Tj /F1+0 9 Tf 12 TL (Page:) Tj /F2+0 9 Tf 12 TL ( 2) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 473.7917 0 Td /F1+0 10 Tf 12 TL (Page 2 of 3) Tj T* -473.7917 0 Td ET
 Q
 Q
  
@@ -2251,12 +2176,83 @@ endstream
 endobj
 29 0 obj
 <<
-/Length 5147
+/Length 5470
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 656.1071 cm
+1 0 0 1 48.51969 681.3071 cm
+q
+1 1 1 rg
+n 0 36 514.9606 -36 re f*
+0 0 0 rg
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (4860.0 in4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.5579 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (202288.5 cm4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 388.5422 27 cm
+Q
+q
+1 0 0 1 388.5422 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 388.5422 3 cm
+Q
+q
+1 0 0 1 432.6817 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (inch) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 36 m 514.9606 36 l S
+n 176.5579 0 m 176.5579 36 l S
+n 382.5422 0 m 382.5422 36 l S
+n 426.6817 0 m 426.6817 36 l S
+n 0 0 m 0 36 l S
+n 514.9606 0 m 514.9606 36 l S
+n 0 0 m 514.9606 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 675.3071 cm
+Q
+q
+1 0 0 1 48.51969 642.1071 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL ([ 4v ] Force and Stress) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 624.1071 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 377.3337 0 Td /F2+0 10 Tf 12 TL (mid-span UDL moment [Eq 7]) Tj T* -377.3337 0 Td ET
+Q
+Q
+q
+1 0 0 1 48.51969 556.9071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2270,45 +2266,35 @@ n -6 -6 513.7606 60 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 39 Tm /F3+0 9 Tf 12 TL (       2) Tj T* (     S\001 \004\010\001) Tj T* (m\001 = \003\003\003\003\003\003) Tj T* (       8) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F3+0 10 Tf 12 TL (       2) Tj T* (     S\001 \004\010\001) Tj T* (m\001 = \003\003\003\003\003\003) Tj T* (       8) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 644.1071 cm
+1 0 0 1 48.51969 544.9071 cm
 Q
 q
-1 0 0 1 48.51969 572.1071 cm
+1 0 0 1 48.51969 472.9071 cm
 q
+1 1 1 rg
+n 0 72 514.9606 -36 re f*
 .878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
-1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 129.6142 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 55.96529 0 Td /F1+0 9 Tf 12 TL (m_1) Tj T* -55.96529 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 54.98287 0 Td /F1+0 10 Tf 12 TL (m_1) Tj T* -54.98287 0 Td ET
 Q
 Q
 q
 1 0 0 1 147.6142 39 cm
 q
-1 1 1 rg
-n 0 0 103.8661 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 38.94284 0 Td /F1+0 9 Tf 12 TL ([m_1 ]) Tj T* -38.94284 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 37.49948 0 Td /F1+0 10 Tf 12 TL ([m_1 ]) Tj T* -37.49948 0 Td ET
 Q
 Q
 q
@@ -2318,7 +2304,7 @@ q
 1 0 0 1 263.4803 51 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
@@ -2327,38 +2313,30 @@ Q
 q
 1 0 0 1 302.1024 39 cm
 q
-1 1 1 rg
-n 0 0 90.99213 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 38.59445 0 Td /F1+0 9 Tf 12 TL (S_1) Tj T* -38.59445 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 30.21432 0 Td /F1+0 10 Tf 12 TL (omega_1) Tj T* -30.21432 0 Td ET
 Q
 Q
 q
-1 0 0 1 405.0945 39 cm
+1 0 0 1 417.9685 39 cm
 q
-1 1 1 rg
-n 0 0 103.8661 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 32.3862 0 Td /F1+0 9 Tf 12 TL (omega_1) Tj T* -32.3862 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 37.82761 0 Td /F1+0 10 Tf 12 TL (S_1) Tj T* -37.82761 0 Td ET
 Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 40.34664 0 Td /F2+0 10 Tf 12 TL (33.47 ftkip) Tj T* -40.34664 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (33.47 ftkip) Tj T* ET
 Q
 Q
 q
-1 0 0 1 147.6142 12 cm
+1 0 0 1 147.6142 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 26.86471 0 Td /F2+0 10 Tf 12 TL (45.38 mkN) Tj T* -26.86471 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (45.38 mkN) Tj T* ET
 Q
 Q
 q
@@ -2368,47 +2346,55 @@ q
 1 0 0 1 263.4803 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 263.4803 3 cm
 Q
 q
-1 0 0 1 302.1024 12 cm
+1 0 0 1 302.1024 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 27.98386 0 Td /F2+0 10 Tf 12 TL (14.00 ft) Tj T* -27.98386 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (1.37 klf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 405.0945 12 cm
+1 0 0 1 417.9685 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 35.17282 0 Td /F2+0 10 Tf 12 TL (1.37 klf) Tj T* -35.17282 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (14.00 ft) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 141.6142 0 m 141.6142 72 l S
+n 257.4803 0 m 257.4803 72 l S
+n 296.1024 0 m 296.1024 72 l S
+n 411.9685 0 m 411.9685 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 572.1071 cm
+1 0 0 1 48.51969 466.9071 cm
 Q
 q
-1 0 0 1 48.51969 554.1071 cm
+1 0 0 1 48.51969 448.9071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 423.0051 0 Td /F1+0 9 Tf 12 TL (bending stress [Eq 8]) Tj T* -423.0051 0 Td ET
+BT 1 0 0 1 0 2 Tm 417.5973 0 Td /F2+0 10 Tf 12 TL (bending stress [Eq 8]) Tj T* -417.5973 0 Td ET
 Q
 Q
 q
-1 0 0 1 48.51969 498.9071 cm
+1 0 0 1 48.51969 393.7071 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2422,45 +2408,35 @@ n -6 -6 513.7606 48 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F3+0 9 Tf 12 TL (         m\001) Tj T* (fb\001 = \003\003\003\003\003\003\003\003) Tj T* (      section\001) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F3+0 10 Tf 12 TL (         m\001) Tj T* (fb\001 = \003\003\003\003\003\003\003\003) Tj T* (      section\001) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 486.9071 cm
+1 0 0 1 48.51969 381.7071 cm
 Q
 q
-1 0 0 1 48.51969 414.9071 cm
+1 0 0 1 48.51969 309.7071 cm
 q
+1 1 1 rg
+n 0 72 514.9606 -36 re f*
 .878431 .878431 .878431 rg
-n 0 72 514.9606 -36 re f*
-1 1 1 rg
 n 0 36 514.9606 -36 re f*
-1 1 1 rg
-n 0 72 514.9606 -36 re f*
-.133333 .133333 .133333 rg
+0 0 0 rg
 q
 1 0 0 1 6 39 cm
 q
-1 1 1 rg
-n 0 0 93.33286 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 37.65324 0 Td /F1+0 9 Tf 12 TL (fb_1) Tj T* -37.65324 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 36.65178 0 Td /F1+0 10 Tf 12 TL (fb_1) Tj T* -36.65178 0 Td ET
 Q
 Q
 q
 1 0 0 1 111.3329 39 cm
 q
-1 1 1 rg
-n 0 0 93.33286 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 33.50481 0 Td /F1+0 9 Tf 12 TL ([fb_1 ]) Tj T* -33.50481 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 32.0424 0 Td /F1+0 10 Tf 12 TL ([fb_1 ]) Tj T* -32.0424 0 Td ET
 Q
 Q
 q
@@ -2470,7 +2446,7 @@ q
 1 0 0 1 216.6657 51 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
@@ -2479,38 +2455,30 @@ Q
 q
 1 0 0 1 251.7767 39 cm
 q
-1 1 1 rg
-n 0 0 116.7402 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 37.66744 0 Td /F1+0 9 Tf 12 TL (section_1) Tj T* -37.66744 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 35.36715 0 Td /F1+0 10 Tf 12 TL (section_1) Tj T* -35.36715 0 Td ET
 Q
 Q
 q
 1 0 0 1 380.5168 39 cm
 q
-1 1 1 rg
-n 0 0 128.4438 12 re f*
-Q
-q
-.133333 .133333 .133333 rg
-BT 1 0 0 1 0 3 Tm 55.38011 0 Td /F1+0 9 Tf 12 TL (m_1) Tj T* -55.38011 0 Td ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 54.39769 0 Td /F1+0 10 Tf 12 TL (m_1) Tj T* -54.39769 0 Td ET
 Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 12 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 25.91447 0 Td /F2+0 10 Tf 12 TL (743.8 psi) Tj T* -25.91447 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (743.8 psi) Tj T* ET
 Q
 Q
 q
-1 0 0 1 111.3329 12 cm
+1 0 0 1 111.3329 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 27.66985 0 Td /F2+0 10 Tf 12 TL (5.1 MPA) Tj T* -27.66985 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (5.1 MPA) Tj T* ET
 Q
 Q
 q
@@ -2520,49 +2488,61 @@ q
 1 0 0 1 216.6657 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL ( ) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
 1 0 0 1 216.6657 3 cm
 Q
 q
-1 0 0 1 251.7767 12 cm
+1 0 0 1 251.7767 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 31.6733 0 Td /F2+0 10 Tf 12 TL (540.0 inch3) Tj T* -31.6733 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (540.0 inch3) Tj T* ET
 Q
 Q
 q
-1 0 0 1 380.5168 12 cm
+1 0 0 1 380.5168 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 39.82493 0 Td /F2+0 10 Tf 12 TL (33.5 ft2\001klf) Tj T* -39.82493 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (33.5 ft2\001klf) Tj T* ET
 Q
 Q
 q
 1 J
 1 j
 0 0 0 RG
-.5 w
+.25 w
 n 0 36 m 514.9606 36 l S
+n 105.3329 0 m 105.3329 72 l S
+n 210.6657 0 m 210.6657 72 l S
+n 245.7767 0 m 245.7767 72 l S
+n 374.5168 0 m 374.5168 72 l S
+n 0 72 m 514.9606 72 l S
+n 0 0 m 514.9606 0 l S
+n 0 0 m 0 72 l S
+n 514.9606 0 m 514.9606 72 l S
 Q
 Q
 Q
 q
-1 0 0 1 48.51969 414.9071 cm
+1 0 0 1 48.51969 303.7071 cm
+Q
+q
+1 0 0 1 48.51969 303.7071 cm
 Q
 q
 1 0 0 1 42.51969 751.6535 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm 196.7559 0 Td /F1+0 9 Tf 12 TL ([ 3v ] Beam Section Properties) Tj T* -196.7559 0 Td ET
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
 Q
 Q
 q
 1 0 0 1 42.51969 28.34646 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (Date:) Tj /F2+0 9 Tf 12 TL ( 2025-12-13 ) Tj /F3+0 9 Tf 12 TL (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj /F2+0 9 Tf 12 TL ( ) Tj /F1+0 9 Tf 12 TL (Page:) Tj /F2+0 9 Tf 12 TL ( 3) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 473.7917 0 Td /F1+0 10 Tf 12 TL (Page 3 of 3) Tj T* -473.7917 0 Td ET
 Q
 Q
  
@@ -2618,16 +2598,16 @@ xref
 0000089062 00000 n 
 0000089186 00000 n 
 0000089258 00000 n 
-0000098348 00000 n 
-0000107897 00000 n 
-0000113096 00000 n 
-0000113155 00000 n 
-0000113189 00000 n 
-0000113223 00000 n 
+0000096206 00000 n 
+0000105436 00000 n 
+0000110958 00000 n 
+0000111017 00000 n 
+0000111051 00000 n 
+0000111085 00000 n 
 trailer
 <<
 /ID 
-[<183052f4cf149f0f34efcec1e8259303><183052f4cf149f0f34efcec1e8259303>]
+[<1ad79a976b51bda9ff09560f010e1bd7><1ad79a976b51bda9ff09560f010e1bd7>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 20 0 R
@@ -2635,5 +2615,5 @@ trailer
 /Size 34
 >>
 startxref
-113257
+111119
 %%EOF

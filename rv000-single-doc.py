@@ -48,9 +48,9 @@ rv.V("""Beam Section Properties
 
     | PYTHON | sectionprop.py | rivt, nodocstring
 
-    section_1 <= rectsect(10*inch, 18*inch) | in3, cm3, 2 | rect sect modulus - function _[E]
+    section_1 <= rectsect(10*inch, 18*inch) | in3, cm3, 2 | function: rect sect modulus _[E]
 
-    inertia_1 <= rectinertia(10*inch, 18*inch) | in4, cm4, 1 | rect moment of inertia - function _[E]
+    inertia_1 <= rectinertia(10*inch, 18*inch) | in4, cm4, 1 | function: rect moment inertia _[E]
 
     """)
 # %% force
@@ -62,15 +62,14 @@ rv.V("""Force and Stress
     
     """)
 # %% tool
-rv.S("""Metadata
+rv.T("""Metadata
 
-    
-    _[[PYTHON]] Author data
-    rv_authD = {
-    "authors": ["rholland"],
+    _[[PYTHON]] 
+    rv_metaD = {
+    "authors": "rholland",
     "version": "0.7.1",
     "email": "rod.h.holland@gmail.com",
-    "repo": "https://github.com/rivt-info/rivt-simple-single-doc",
+    "repo": "https://github.com/rivt-info/rivt-single-doc",
     "license": "https://opensource.org/license/mit/",
     "fork1": ["author", "version", "email", "repo"],
     "fork2": [],
@@ -82,11 +81,9 @@ rv.S("""Metadata
 rv.D("""Publish Doc 
 
     _[[LAYOUT]]
-    rv_docnameS = "Beam Moment"
-    rv_headerL = ["date", "time", "file", "version"]
+     in development
     _[[END]]
     
-
-    | PUBLISH | rivt | rst2pdf
+    | PUBLISH | rivt | html
 
     """)

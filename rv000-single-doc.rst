@@ -1,4 +1,7 @@
 
+   .. header:: 
+      2025-12-15 - 07:34PM  |  rholland  |  rv000-single-doc  v0.7.1     
+
 [ 1i ] Load Combinations
 -------------------------------------------------------------------------------- 
 
@@ -15,7 +18,7 @@ Equation No.    Load Combination
 
 
 .. image:: C:/git/rivt-single-doc-git/beam.png
-   :width: 60 %
+   :width: 65 %
    :align: center
 
 
@@ -63,15 +66,15 @@ Uniform Distributed Loads
    <p align="right">dead load : ASCE7-05 2.3.2   [Eq 2]</p> 
 
 
-..  code:: 
+.. code:: 
 
     dl₁ = 1.2⋅D₄ + 1.2⋅W₁⋅(D₁ + D₂ + D₃)
 
-========  ==========  ===  =====  ========  =======  ========  =========
- dl_1      [dl_1 ]     |    D_4     D_2       W_1      D_1        D_3
-========  ==========  ===  =====  ========  =======  ========  =========
-1.24 klf  18.07 kN_m   |    klf   2.10 psf  2.00 ft  3.80 psf  10.00 psf
-========  ==========  ===  =====  ========  =======  ========  =========
+========  ==========  ===  =========  ========  =====  =======  ========
+ dl_1      [dl_1 ]     |      D_3       D_1      D_4     W_1      D_2
+========  ==========  ===  =========  ========  =====  =======  ========
+1.24 klf  18.07 kN_m   |   10.00 psf  3.80 psf   klf   2.00 ft  2.10 psf
+========  ==========  ===  =========  ========  =====  =======  ========
  
 
 
@@ -80,7 +83,7 @@ Uniform Distributed Loads
    <p align="right">live load : ASCE7-05 2.3.2  [Eq 3]</p> 
 
 
-..  code:: 
+.. code:: 
 
     ll₁ = 1.6⋅L₁⋅W₁
 
@@ -97,30 +100,33 @@ Uniform Distributed Loads
    <p align="right">total load : ASCE7-05 2.3.2  [Eq 4]</p> 
 
 
-..  code:: 
+.. code:: 
 
     dl₁ = -ll₁ + ω₁
 
-==========  ============  ===  =============  ========
- omega_1     [omega_1 ]    |       ll_1         dl_1
-==========  ============  ===  =============  ========
- 1.37 klf    19.94 kN_m    |   128.00 ft·psf  1.24 klf
-==========  ============  ===  =============  ========
+==========  ============  ===  ========  =============
+ omega_1     [omega_1 ]    |     dl_1        ll_1
+==========  ============  ===  ========  =============
+ 1.37 klf    19.94 kN_m    |   1.24 klf  128.00 ft·psf
+==========  ============  ===  ========  =============
  
  
 
 [ 3v ] Beam Section Properties
 -------------------------------------------------------------------------------- 
+ [Python file: sectionprop.py]
+
+
 
  
 
 
 .. raw:: html
 
-   <p align="right">rect sect modulus - function  [Eq 5]</p> 
+   <p align="right">function: rect sect modulus  [Eq 5]</p> 
 
 
-..  code:: 
+.. code:: 
 
     section₁ = rectsect(10⋅inch, 18⋅inch)
 
@@ -134,10 +140,10 @@ Uniform Distributed Loads
 
 .. raw:: html
 
-   <p align="right">rect moment of inertia - function  [Eq 6]</p> 
+   <p align="right">function: rect moment inertia  [Eq 6]</p> 
 
 
-..  code:: 
+.. code:: 
 
     inertia₁ = rectinertia(10⋅inch, 18⋅inch)
 
@@ -158,7 +164,7 @@ Uniform Distributed Loads
    <p align="right">mid-span UDL moment  [Eq 7]</p> 
 
 
-..  code:: 
+.. code:: 
 
            2   
          S₁ ⋅ω₁
@@ -178,7 +184,7 @@ Uniform Distributed Loads
    <p align="right">bending stress  [Eq 8]</p> 
 
 
-..  code:: 
+.. code:: 
 
              m₁   
     fb₁ = ────────
@@ -191,3 +197,4 @@ Uniform Distributed Loads
 =========  =========  ===  ===========  ============
  
  
+
