@@ -16,7 +16,7 @@ rv.I("""Load Combinations
     16-3           1.2(D+F+T) + 1.6(Lr or S or R) + (f1L or 0.8W)
     ============= ================================================
 
-    | FIGURE | beam.png | 65, Beam Geometry
+    | FIGURE | d-beam.png | 65, Beam Geometry
 
     Bending Stress Formula _[E]
     σ1 = M1 / S1 _[A]
@@ -32,7 +32,7 @@ rv.V("""Loads and Geometry
     D_4 := 2*0.5*klf |klf, kN_m , 2 | fixed machinery  DL
     L_1 := 40*psf | psf, kPA, 2 | ASCE7-O5 LL 
     
-    | VALUES | beam1-v.csv | Beam Geometry _[T]
+    | VALUES | d-beam1-v.csv | Beam Geometry _[T]
 
 
     Uniform Distributed Loads
@@ -46,7 +46,7 @@ rv.V("""Loads and Geometry
 # %% section
 rv.V("""Beam Section Properties
 
-    | PYTHON | sectionprop.py | rivt, nodocstring
+    | PYTHON | d-sectprop.py | rivt, nodocstring
 
     section_1 <= rectsect(10*inch, 18*inch) | in3, cm3, 2 | function: rect sect modulus _[E]
 
@@ -81,10 +81,9 @@ rv.T("""Metadata
 rv.D("""Publish Doc 
 
     _[[LAYOUT]]
-    rv_doctitleS = Beam Moment
-    rv_runblock = datetime, author, filenmae
+     in development
     _[[END]]
     
-    | PUBLISH | rivt | html
+    | PUBLISH | rivt | text
 
     """)
