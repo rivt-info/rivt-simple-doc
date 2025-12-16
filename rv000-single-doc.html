@@ -453,7 +453,7 @@ a {
 </head>
 <body>
 <header>
-<p>2025-12-15 - 07:34PM  |  rholland  |  rv000-single-doc  v0.7.1</p>
+<p>2025-12-15 - 08:58PM  |  rholland  |  rv000-single-doc  v0.7.1</p>
 </header>
 <main>
 
@@ -481,7 +481,7 @@ a {
 </tr>
 </tbody>
 </table>
-<img alt="C:/git/rivt-single-doc-git/beam.png" class="align-center" src="C:/git/rivt-single-doc-git/beam.png" style="width: 65%;" />
+<img alt="C:/git/rivt-single-doc-git/s-beam.png" class="align-center" src="C:/git/rivt-single-doc-git/s-beam.png" style="width: 65%;" />
 <p class="center">Beam Geometry</p>
 <p align="right">Bending Stress Formula [Eq 1]</p><pre class="code literal-block"><code>        M₁
 σ₁ = ──
@@ -490,7 +490,7 @@ a {
 <section id="v-loads-and-geometry">
 <h2>[ 2v ] Loads and Geometry</h2>
 <p><strong>Table 2</strong>: Beam Loads and Properties</p>
-<p>Beam Geometry [file: beam1-v.csv]</p>
+<p>Beam Geometry [file: s-beam1-v.csv]</p>
 <table>
 <thead>
 <tr><th class="head"><p>variable</p></th>
@@ -522,11 +522,11 @@ a {
 <div class="line"><br /></div>
 </div>
 </th>
-<th class="head"><p>D_3</p></th>
-<th class="head"><p>D_1</p></th>
 <th class="head"><p>D_4</p></th>
-<th class="head"><p>W_1</p></th>
+<th class="head"><p>D_1</p></th>
+<th class="head"><p>D_3</p></th>
 <th class="head"><p>D_2</p></th>
+<th class="head"><p>W_1</p></th>
 </tr>
 </thead>
 <tbody>
@@ -536,11 +536,11 @@ a {
 <div class="line"><br /></div>
 </div>
 </td>
-<td><p>10.00 psf</p></td>
-<td><p>3.80 psf</p></td>
 <td><p>klf</p></td>
-<td><p>2.00 ft</p></td>
+<td><p>3.80 psf</p></td>
+<td><p>10.00 psf</p></td>
 <td><p>2.10 psf</p></td>
+<td><p>2.00 ft</p></td>
 </tr>
 </tbody>
 </table>
@@ -553,8 +553,8 @@ a {
 <div class="line"><br /></div>
 </div>
 </th>
-<th class="head"><p>L_1</p></th>
 <th class="head"><p>W_1</p></th>
+<th class="head"><p>L_1</p></th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ a {
 <div class="line"><br /></div>
 </div>
 </td>
-<td><p>40.00 psf</p></td>
 <td><p>2.00 ft</p></td>
+<td><p>40.00 psf</p></td>
 </tr>
 </tbody>
 </table>
@@ -598,7 +598,7 @@ a {
 <section id="v-beam-section-properties">
 <h2>[ 3v ] Beam Section Properties</h2>
 <blockquote>
-<p>[Python file: sectionprop.py]</p>
+<p>[Python file: s-sectprop.py]</p>
 </blockquote>
 <p align="right">function: rect sect modulus  [Eq 5]</p><pre class="code literal-block"><code>section₁ = rectsect(10⋅inch, 18⋅inch)</code></pre>
 <table>
@@ -661,8 +661,8 @@ m₁ = ──────
 <div class="line"><br /></div>
 </div>
 </th>
-<th class="head"><p>omega_1</p></th>
 <th class="head"><p>S_1</p></th>
+<th class="head"><p>omega_1</p></th>
 </tr>
 </thead>
 <tbody>
@@ -672,8 +672,8 @@ m₁ = ──────
 <div class="line"><br /></div>
 </div>
 </td>
-<td><p>1.37 klf</p></td>
 <td><p>14.00 ft</p></td>
+<td><p>1.37 klf</p></td>
 </tr>
 </tbody>
 </table>
@@ -688,8 +688,8 @@ fb₁ = ────────
 <div class="line"><br /></div>
 </div>
 </th>
-<th class="head"><p>section_1</p></th>
 <th class="head"><p>m_1</p></th>
+<th class="head"><p>section_1</p></th>
 </tr>
 </thead>
 <tbody>
@@ -699,8 +699,8 @@ fb₁ = ────────
 <div class="line"><br /></div>
 </div>
 </td>
-<td><p>540.0 inch3</p></td>
 <td><p>33.5 ft2·klf</p></td>
+<td><p>540.0 inch3</p></td>
 </tr>
 </tbody>
 </table>

@@ -1072,7 +1072,7 @@ endobj
 endobj
 20 0 obj
 <<
-/Author () /CreationDate (D:20251215171603-08'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251215171603-08'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20251215205758-08'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251215205758-08'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -1108,7 +1108,7 @@ endobj
 endobj
 27 0 obj
 <<
-/Length 6896
+/Length 6895
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -1273,7 +1273,7 @@ q
 1 0 0 1 48.51969 287.7095 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (Beam Geometry [file: beam1-v.csv]) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (Beam Geometry [file: s-beam1-v.csv]) Tj T* ET
 Q
 Q
 q
@@ -1469,28 +1469,28 @@ q
 1 0 0 1 192.4513 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 15.32668 0 Td /F1+0 10 Tf 12 TL (W_1) Tj T* -15.32668 0 Td ET
+BT 1 0 0 1 0 2 Tm 20.8988 0 Td /F1+0 10 Tf 12 TL (D_2) Tj T* -20.8988 0 Td ET
 Q
 Q
 q
-1 0 0 1 254.6017 3 cm
+1 0 0 1 263.4803 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm 25.33812 0 Td /F1+0 10 Tf 12 TL (D_3) Tj T* -25.33812 0 Td ET
 Q
 Q
 q
-1 0 0 1 334.5094 3 cm
+1 0 0 1 343.388 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm 20.8988 0 Td /F1+0 10 Tf 12 TL (D_1) Tj T* -20.8988 0 Td ET
 Q
 Q
 q
-1 0 0 1 405.5384 3 cm
+1 0 0 1 414.4171 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 20.8988 0 Td /F1+0 10 Tf 12 TL (D_2) Tj T* -20.8988 0 Td ET
+BT 1 0 0 1 0 2 Tm 15.32668 0 Td /F1+0 10 Tf 12 TL (W_1) Tj T* -15.32668 0 Td ET
 Q
 Q
 q
@@ -1509,9 +1509,9 @@ n 0 0 m 514.9606 0 l S
 n 71.02905 0 m 71.02905 36 l S
 n 159.8154 0 m 159.8154 36 l S
 n 186.4513 0 m 186.4513 36 l S
-n 248.6017 0 m 248.6017 36 l S
-n 328.5094 0 m 328.5094 36 l S
-n 399.5384 0 m 399.5384 36 l S
+n 257.4803 0 m 257.4803 36 l S
+n 337.388 0 m 337.388 36 l S
+n 408.4171 0 m 408.4171 36 l S
 n 470.5675 0 m 470.5675 36 l S
 n 0 36 m 514.9606 36 l S
 n 0 0 m 0 36 l S
@@ -1523,7 +1523,7 @@ q
 1 0 0 1 42.51969 751.6535 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 08:57PM | rholland | rv000-single-doc v0.7.1) Tj T* -249.3581 0 Td ET
 Q
 Q
 q
@@ -1538,7 +1538,7 @@ endstream
 endobj
 28 0 obj
 <<
-/Length 9178
+/Length 9171
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -1579,28 +1579,28 @@ q
 1 0 0 1 192.4513 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.00 ft) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.10 psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 254.6017 21 cm
+1 0 0 1 263.4803 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (10.00 psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 334.5094 21 cm
+1 0 0 1 343.388 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (3.80 psf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 405.5384 21 cm
+1 0 0 1 414.4171 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.10 psf) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL (2.00 ft) Tj T* ET
 Q
 Q
 q
@@ -1619,9 +1619,9 @@ n 0 36 m 514.9606 36 l S
 n 71.02905 0 m 71.02905 36 l S
 n 159.8154 0 m 159.8154 36 l S
 n 186.4513 0 m 186.4513 36 l S
-n 248.6017 0 m 248.6017 36 l S
-n 328.5094 0 m 328.5094 36 l S
-n 399.5384 0 m 399.5384 36 l S
+n 257.4803 0 m 257.4803 36 l S
+n 337.388 0 m 337.388 36 l S
+n 408.4171 0 m 408.4171 36 l S
 n 470.5675 0 m 470.5675 36 l S
 n 0 0 m 0 36 l S
 n 514.9606 0 m 514.9606 36 l S
@@ -1934,7 +1934,7 @@ q
 1 0 0 1 20 0 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ([Python file: sectionprop.py]) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F2+0 10 Tf 12 TL ([Python file: s-sectprop.py]) Tj T* ET
 Q
 Q
 q
@@ -2075,7 +2075,7 @@ q
 1 0 0 1 48.51969 176.5071 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 336.8698 0 Td /F2+0 10 Tf 12 TL (function: rect moment of inertia [Eq 6]) Tj T* -336.8698 0 Td ET
+BT 1 0 0 1 0 2 Tm 348.8473 0 Td /F2+0 10 Tf 12 TL (function: rect moment inertia [Eq 6]) Tj T* -348.8473 0 Td ET
 Q
 Q
 q
@@ -2161,7 +2161,7 @@ q
 1 0 0 1 42.51969 751.6535 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 08:57PM | rholland | rv000-single-doc v0.7.1) Tj T* -249.3581 0 Td ET
 Q
 Q
 q
@@ -2535,7 +2535,7 @@ q
 1 0 0 1 42.51969 751.6535 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 05:16PM | rholland | rv000-single-doc v0.1.1) Tj T* -249.3581 0 Td ET
+BT 1 0 0 1 0 2 Tm 249.3581 0 Td /F1+0 10 Tf 12 TL (2025-12-15 - 08:57PM | rholland | rv000-single-doc v0.7.1) Tj T* -249.3581 0 Td ET
 Q
 Q
 q
@@ -2598,16 +2598,16 @@ xref
 0000089062 00000 n 
 0000089186 00000 n 
 0000089258 00000 n 
-0000096206 00000 n 
-0000105436 00000 n 
-0000110958 00000 n 
-0000111017 00000 n 
-0000111051 00000 n 
-0000111085 00000 n 
+0000096205 00000 n 
+0000105428 00000 n 
+0000110950 00000 n 
+0000111009 00000 n 
+0000111043 00000 n 
+0000111077 00000 n 
 trailer
 <<
 /ID 
-[<1ad79a976b51bda9ff09560f010e1bd7><1ad79a976b51bda9ff09560f010e1bd7>]
+[<8a681115d277642a43ec1a2b3a904bca><8a681115d277642a43ec1a2b3a904bca>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 20 0 R
@@ -2615,5 +2615,5 @@ trailer
 /Size 34
 >>
 startxref
-111119
+111111
 %%EOF
