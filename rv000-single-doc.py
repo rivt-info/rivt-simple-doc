@@ -7,7 +7,6 @@ import rivtlib.rvapi as rv
 rv.I("""Load Combinations 
 
     ASCE 7-05 Load Effects _[T]
-
     ============= ================================================
     Equation No.    Load Combination
     ============= ================================================
@@ -32,7 +31,7 @@ rv.V("""Loads and Geometry
     D_4 := 2*0.5*klf |klf, kN_m , 2 | fixed machinery  DL
     L_1 := 40*psf | psf, kPA, 2 | ASCE7-O5 LL 
     
-    | VALUES | s-beam1-v.csv | Beam Geometry _[T]
+    | VALUES | s-beam1-v.csv | Beam Geometry, 0:0  _[T]
 
 
     Uniform Distributed Loads
@@ -84,6 +83,6 @@ rv.D("""Publish Doc
      in development
     _[[END]]
     
-    | PUBLISH | rivt | html
+    | PUBLISH | rivt | text
 
     """)
