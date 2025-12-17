@@ -80,7 +80,7 @@ rv.T("""Metadata
 rv.D("""Publish Doc 
 
     _[[LAYOUT]]
-     in development
+        in development
     _[[END]]
     
     | PUBLISH | rivt | text
