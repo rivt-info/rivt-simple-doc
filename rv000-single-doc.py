@@ -66,7 +66,7 @@ rv.T("""Metadata
     _[[PYTHON]] 
     rv_metaD = {
     "authors": "rholland",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "email": "rod.h.holland@gmail.com",
     "repo": "https://github.com/rivt-info/rivt-single-doc",
     "license": "https://opensource.org/license/mit/",
@@ -80,7 +80,7 @@ rv.T("""Metadata
 rv.D("""Publish Doc 
 
     _[[LAYOUT]]
-        imagepath: 
+        logopath: 
         pdfheader: ###Page### of ###TotalPages###
         footer: []
     _[[END]]
